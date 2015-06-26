@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <!-- MapView layout, including basemap layer, initial center point, and zoom level -->
+  <com.esri.android.map.MapView
+    android:id="@+id/map"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    mapoptions.MapType="Topo"
+    mapoptions.center="34.056215, -117.195668"
+    mapoptions.ZoomLevel="16" />
+
+</LinearLayout>

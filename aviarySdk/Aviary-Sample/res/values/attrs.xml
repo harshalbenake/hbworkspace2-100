@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="FeatherDefaultTheme">
+        <attr format="reference" name="dialog_layout"></attr>
+        <attr format="reference" name="dialog_button"></attr>
+    </declare-styleable>
+
+</resources>

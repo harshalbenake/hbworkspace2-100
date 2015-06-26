@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/aviary_invisible_text_1"
+            style="?attr/aviaryHiddenEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/aviary_meme_dumb"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="100sp" />
+
+        <EditText
+            android:id="@+id/aviary_invisible_text_2"
+            style="?attr/aviaryHiddenEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <com.aviary.android.feather.widget.ImageViewDrawableOverlay
+        android:id="@+id/aviary_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical|fill_horizontal"
+        android:scaleType="matrix" />
+
+</RelativeLayout>

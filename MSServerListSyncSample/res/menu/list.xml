@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/ui_menu_sync" android:title="@string/ui_synchronize"
+		android:icon="@drawable/sync" />
+	<item android:id="@+id/ui_menu_newlist" android:title="@string/ui_new_list" android:icon="@android:drawable/ic_menu_add"/>
+</menu>

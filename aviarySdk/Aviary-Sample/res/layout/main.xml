@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:baselineAligned="true"
+	android:background="@drawable/background"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+		<LinearLayout
+			android:background="@drawable/image_background"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/image_container"
+			android:padding="5dp">
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/image_default"
+				android:scaleType="centerInside"
+				android:id="@+id/image" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_weight="0"
+		android:padding="10dp"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:text="@string/choose_photo"
+			android:padding="10.0dip"
+			android:id="@+id/button1"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></Button>
+		<Button
+			android:layout_weight="1"
+			android:text="@string/launch_editor"
+			android:padding="10.0dip"
+			android:id="@+id/button2"
+			android:enabled="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/Logger.java
+END
+SessionTracker.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/SessionTracker.java
+END
+CacheableRequestBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/CacheableRequestBatch.java
+END
+Utility.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/Utility.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/package-info.java
+END
+FileLruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/FileLruCache.java
+END
+SessionAuthorizationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/SessionAuthorizationType.java
+END
+ServerProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/ServerProtocol.java
+END
+Validate.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/internal/Validate.java
+END

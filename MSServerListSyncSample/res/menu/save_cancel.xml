@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ui_edit_save" android:title="@string/ui_save"></item>
+    <item android:id="@+id/ui_edit_cancel" android:title="@android:string/cancel"></item>
+</menu>

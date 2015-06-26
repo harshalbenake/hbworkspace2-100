@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryEffectThumbLayoutExternalStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:clickable="false" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aviary_text"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/aviary_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/aviary_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/aviary_image"
+            android:scaleType="centerInside"
+            android:src="@drawable/aviary_badge_icon"
+            android:paddingRight="2dip"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/aviary_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/aviary_image"
+            android:src="@drawable/aviary_external_packs_download_icon" />
+    </RelativeLayout>
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:id="@+id/aviary_text"
+        style="?attr/aviaryEffectThumbTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/feather_get_more" />
+
+</RelativeLayout>

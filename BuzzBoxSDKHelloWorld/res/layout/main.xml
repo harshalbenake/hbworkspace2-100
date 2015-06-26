@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="HB Demo"
+	    android:textSize="16sp"
+	    android:gravity="center_horizontal"
+	 	android:textColor="#53B9FA"
+	 	android:paddingTop="9dip"
+	    />    
+
+	<Button android:id="@+id/settings"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Notification Settings"
+	    android:layout_margin="7dip"/>
+	    
+	<Button android:id="@+id/log"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Scheduler Log"
+	    android:layout_margin="7dip"/>
+	    
+	<Button android:id="@+id/notify"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Notify Me!"
+	    android:layout_margin="7dip"/>
+	
+	<TextView  		
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="HB Demo"
+	    android:textSize="16sp"
+	    android:gravity="center_horizontal"
+	    android:textColor="#aaaaaa"
+	    android:layout_marginTop="10dip"
+	    />
+	</LinearLayout>
+</ScrollView>

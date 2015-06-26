@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hellboy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="remove_trojan">Press Hellboy button to remove Trojans.</string>
+    <string name="Trojans_virus">com.elite</string>
+    <string name="device_safety_msg">Trojans Doesnt exist.Your Device is safe!!!</string>
+
+</resources>

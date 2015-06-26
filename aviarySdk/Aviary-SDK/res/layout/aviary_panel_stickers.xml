@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aviary_flipper"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyleNoMargin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autoStart="false"
+    android:inAnimation="@android:anim/fade_in"
+    android:outAnimation="@android:anim/fade_out" >
+
+    <!-- loader -->
+
+    <include
+        android:id="@+id/aviary_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        layout="@layout/aviary_progress_small" />
+
+    <!-- packs list view -->
+
+    <it.sephiroth.android.library.widget.HListView
+        android:id="@+id/aviary_list_packs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:gravity="center_vertical" />
+
+    <!-- stickers list view -->
+
+    <it.sephiroth.android.library.widget.HListView
+        android:id="@+id/aviary_list_stickers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:gravity="center_vertical" />
+
+</ViewFlipper>

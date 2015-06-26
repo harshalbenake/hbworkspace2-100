@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget
+END
+SimpleGraphObjectCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/SimpleGraphObjectCursor.java
+END
+PickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/PickerFragment.java
+END
+ImageResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/ImageResponse.java
+END
+ImageDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/ImageDownloader.java
+END
+LoginButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/LoginButton.java
+END
+GraphObjectPagingLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/GraphObjectPagingLoader.java
+END
+PlacePickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/PlacePickerFragment.java
+END
+UrlRedirectCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/UrlRedirectCache.java
+END
+UserSettingsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/UserSettingsFragment.java
+END
+ImageResponseCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/ImageResponseCache.java
+END
+GraphObjectCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/GraphObjectCursor.java
+END
+ProfilePictureView.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/ProfilePictureView.java
+END
+WorkQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/WorkQueue.java
+END
+GraphObjectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/GraphObjectAdapter.java
+END
+FriendPickerFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/FriendPickerFragment.java
+END
+ImageRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/ImageRequest.java
+END
+FacebookFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/FacebookFragment.java
+END
+WebDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/widget/WebDialog.java
+END

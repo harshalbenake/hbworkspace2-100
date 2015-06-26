@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ZXingJarDemo</string>
+	<string name="scan">Scan</string>
+	<string name="scan_resut_lable">Scan Result:</string>
+	<string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it. </string>
+</resources>

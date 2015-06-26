@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="BaseTheme" parent="android:Theme.Black.NoTitleBar"></style>
+    
+    <style name="BaseTheme.Impl"></style>
+	<style name="AviaryTheme.Custom"></style>
+	<style name="AviaryTheme.Custom.Dialog" parent="@style/AviaryBaseTheme.Dialog"></style>
+</resources>

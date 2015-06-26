@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:bottom="@dimen/aviary_nav_divider"
+        android:left="@dimen/aviary_nav_divider"
+        android:right="@dimen/aviary_nav_divider"
+        android:top="@dimen/aviary_nav_divider">
+        <shape android:shape="rectangle" >
+            <corners android:radius="6sp" />
+
+            <stroke android:color="@color/aviary_nav_divider_light" android:width="@dimen/aviary_nav_divider" />
+
+            <gradient
+                android:angle="90"
+                android:endColor="@color/aviary_nav_primary_color"
+                android:startColor="@color/aviary_nav_secondary_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="6sp" />
+
+            <stroke android:color="@color/aviary_nav_divider_dark" android:width="@dimen/aviary_nav_divider" />
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>

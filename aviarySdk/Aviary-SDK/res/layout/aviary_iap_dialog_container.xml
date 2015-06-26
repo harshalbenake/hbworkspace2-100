@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aviary_main_iap_dialog_container"
+    style="?attr/aviaryIAPDialogContainerStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".widget.IAPDialog" >
+
+    <LinearLayout
+        android:id="@+id/aviary_main_iap_dialog"
+        style="?attr/aviaryIAPDialogMainLayout"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="?attr/aviaryIAPDialogWidthWeight"
+        android:clickable="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="0dip"
+            android:layout_weight="?attr/aviaryIAPDialogMarginTopWeight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="?attr/aviaryIAPDialogHeightWeight"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                style="?attr/aviaryIAPDialogGridTopStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <ViewAnimator
+                android:id="@+id/aviary_view_animator"
+                android:inAnimation="@anim/aviary_slide_in_right"
+                android:outAnimation="@anim/aviary_slide_out_left"
+                android:animateFirstView="false"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1">
+                
+                <!-- IAP MAIN CONTENT -->
+                
+                <!-- list view -->
+                <include android:id="@+id/aviary_iap_list" layout="@layout/aviary_iap_dialog_list" />
+                <!-- details view -->
+                <include android:id="@+id/aviary_iap_detail" layout="@layout/aviary_iap_dialog_detail" />
+                
+            </ViewAnimator>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/aviaryIAPDialogGridBackground" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <include layout="@layout/aviary_iap_dialog" /> -->
+
+</LinearLayout>

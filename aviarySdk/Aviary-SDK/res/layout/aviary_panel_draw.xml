@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyleNoMargin"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/aviary_gallery_margin_bottom"
+        android:layout_marginTop="@dimen/aviary_gallery_margin_top"
+        android:orientation="vertical" >
+
+        <com.aviary.android.feather.widget.AviaryGallery
+            android:id="@+id/aviary_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:clipChildren="true"
+            android:clipToPadding="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aviary_gallery_mid_indicator_height"
+            android:background="@drawable/aviary_gallery_middle_divider"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <com.aviary.android.feather.widget.AviaryGallery
+            android:id="@+id/aviary_gallery2"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:clipChildren="true"
+            android:clipToPadding="true" />
+    </LinearLayout>
+
+    <com.aviary.android.feather.widget.AviaryGalleryTopIndicatorView
+        android:id="@+id/aviary_top_line"
+        style="?attr/aviaryGalleryTopIndicatorStyle" />
+
+    <com.aviary.android.feather.widget.AviaryGalleryTopIndicatorView
+        android:id="@+id/aviary_bottom_line"
+        style="?attr/aviaryGalleryBottomIndicatorStyle"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/aviary_disable_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/aviaryPanelDisabledStatusBackground"
+        android:orientation="horizontal"
+        android:visibility="invisible" />
+
+</RelativeLayout>

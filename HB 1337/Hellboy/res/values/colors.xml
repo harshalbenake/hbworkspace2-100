@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- default colors -->
+    <color name="default_background">#272727</color>
+    <color name="default_pure_black">#000000</color>
+    <color name="default_pure_white">#ffffff</color>
+    <color name="default_pure_green">#00ff00</color>
+    <color name="default_pure_grey">#808080</color>
+    <color name="default_pure_red">#ff0000</color>
+    <color name="default_pure_yellow">#ffff00</color>
+    <color name="default_pure_blue">#0000ff</color>
+    
+    <!--Transparent uninstall pop background  -->
+    <color name="transparent_background">#a0151515</color>
+    
+</resources>

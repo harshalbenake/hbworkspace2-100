@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/aviaryBottomBarToolFeedBackStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:focusable="false"
+    android:focusableInTouchMode="false" >
+
+    <LinearLayout
+        android:layout_width="@dimen/aviary_nav_divider_double"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="0dip"
+        android:background="@drawable/aviary_tools_divider" >
+    </LinearLayout>
+
+    <com.aviary.android.feather.widget.AviaryHighlightImageButton
+        android:focusable="false"
+        android:id="@+id/image"
+        style="?attr/aviaryBottomBarToolImageStyle"
+        android:layout_marginLeft="@dimen/aviary_tool_margin"
+        android:layout_marginRight="@dimen/aviary_tool_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aviary_tool_ic_feedback" />
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:focusable="false"
+        android:id="@+id/text"
+        style="?attr/aviaryBottomBarToolTextStyle"
+        android:textAppearance="?attr/aviaryTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dip"
+        android:text="@string/feather_feedback" />
+
+</LinearLayout>

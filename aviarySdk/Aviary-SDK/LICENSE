@@ -1,0 +1,125 @@
+AVIARY API TERMS OF USE
+
+Full Legal Agreement
+The following terms and conditions and the terms and conditions at http://www.aviary.com/terms (collectively, the “Terms”)
+govern your use of any and all data, text, software, tools, documents and other materials associated with the application
+programming interface offered by Aviary, Inc. (the "API"). By clicking on the “Accept” button, OR BY USING OR ACCESSING ANY
+PORTION OF THE API, you or the entity or company that you represent are unconditionally agreeing to be bound by the terms,
+including those available by hyperlink from within this document, and are becoming a party to the Terms. Your continued use
+of the API shall also constitute assent to the Terms. If you do not unconditionally agree to all of the Terms, DO NOT USE OR
+ACCESS ANY PORTION OF THE API. If the terms set out herein are considered an offer, acceptance is expressly limited to these
+terms. IF YOU DO NOT AGREE TO THE TERMS, YOU MAY NOT USE THE API, IN WHOLE OR IN PART.
+
+1.	 GRANT OF LICENSE.
+Subject to your ("Licensee") full compliance with all of Terms of this agreement ("Agreement"), Aviary, Inc. ("Aviary")
+grants Licensee a non-exclusive, revocable, nonsublicensable, nontransferable license to download and use the API solely to
+embed a launchable Aviary application within Licensee’s mobile or website application (“App”) and to access data from Aviary
+in connection with such application. Licensee may not install or use the API for any other purpose without Aviary's prior
+written consent.
+
+Licensee shall not use the API in connection with or to promote any products, services, or materials that constitute, promote
+or are used primarily for the purpose of dealing in: spyware, adware, or other malicious programs or code, counterfeit goods,
+items subject to U.S. embargo, unsolicited mass distribution of email ("spam"), multi-level marketing proposals, hate
+materials, hacking/surveillance/interception/descrambling equipment, libelous, defamatory, obscene, pornographic, abusive or
+otherwise offensive content, prostitution, body parts and bodily fluids, stolen products and items used for theft, fireworks,
+explosives, and hazardous materials, government IDs, police items, gambling, professional services regulated by state
+licensing regimes, non-transferable items such as airline tickets or event tickets, weapons and accessories.
+
+2.	 BRANDING.
+Licensee agrees to the following: (a) on every App page that makes use of the Aviary API, Licensee shall display an Aviary
+logo crediting Aviary only in accordance with the branding instructions available at [www.aviary.com/branding]; (b) it shall
+maintain a clickable link to the following location [www.aviary.com/api-info], prominently in the licensee App whenever the
+API is displayed to the end user. (c) it may not otherwise use the Aviary logo without specific written permission from
+Aviary; and (d) any use of the Aviary logo on an App page shall be less prominent than the logo or mark that primarily
+describes the Licensee website, and Licensee’s use of the Aviary logo shall not imply any endorsement of the Licensee website
+by Aviary.
+
+3.	 PROPRIETARY RIGHTS.
+As between Aviary and Licensee, the API and all intellectual property rights in and to the API are and shall at all times
+remain the sole and exclusive property of Aviary and are protected by applicable intellectual property laws and treaties.
+Except for the limited license expressly granted herein, no other license is granted, no other use is permitted and Aviary
+(and its licensors) shall retain all right, title and interest in and to the API and the Aviary logos.
+
+4.	 OTHER RESTRICTIONS.
+Except as expressly and unambiguously authorized under this Agreement, Licensee may not (i) copy, rent, lease, sell,
+transfer, assign, sublicense, disassemble, reverse engineer or decompile (except to the limited extent expressly authorized
+by applicable statutory law), modify or alter any part of the API; (ii) otherwise use the API on behalf of any third party.
+
+5.	 MODIFICATIONS TO THIS AGREEMENT.
+Aviary reserves the right, in its sole discretion to modify this Agreement at any time by posting a notice to Aviary.com. You
+shall be responsible for reviewing and becoming familiar with any such modification. Such modifications are effective upon
+first posting or notification and use of the Aviary API by Licensee following any such notification constitutes Licensee’s
+acceptance of the terms and conditions of this Agreement as modified.
+
+6.	 WARRANTY DISCLAIMER.
+THE API IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, AVIARY AND ITS
+VENDORS EACH DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, REGARDING THE API, INCLUDING WITHOUT LIMITATION
+ANY AND ALL IMPLIED WARRANTIES OF MERCHANTABILITY, ACCURACY, RESULTS OF USE, RELIABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+TITLE, INTERFERENCE WITH QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD-PARTY RIGHTS. FURTHER, AVIARY DISCLAIMS ANY WARRANTY
+THAT LICENSEE'S USE OF THE API WILL BE UNINTERRUPTED OR ERROR FREE.
+
+7.	 SUPPORT AND UPGRADES.
+This Agreement does not entitle Licensee to any support and/or upgrades for the APIs, unless Licensee makes separate
+arrangements with Aviary and pays all fees associated with such support. Any such support and/or upgrades provided by Aviary
+shall be subject to the terms of this Agreement as modified by the associated support Agreement.
+
+8.	 LIABILITY LIMITATION.
+REGARDLESS OF WHETHER ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE OR OTHERWISE, AND EXCEPT FOR BODILY INJURY,
+IN NO EVENT WILL AVIARY OR ITS VENDORS, BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY UNDER ANY TORT, CONTRACT, NEGLIGENCE,
+STRICT LIABILITY OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY LOST PROFITS, LOST OR CORRUPTED DATA, COMPUTER FAILURE OR
+MALFUNCTION, INTERRUPTION OF BUSINESS, OR OTHER SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND ARISING
+OUT OF THE USE OR INABILITY TO USE THE API, EVEN IF AVIARY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGES AND
+WHETHER OR NOT SUCH LOSS OR DAMAGES ARE FORESEEABLE. ANY CLAIM ARISING OUT OF OR RELATING TO THIS AGREEMENT MUST BE BROUGHT
+WITHIN ONE (1) YEAR AFTER THE OCCURRENCE OF THE EVENT GIVING RISE TO SUCH CLAIM. IN ADDITION, AVIARY DISCLAIMS ALL LIABILITY
+OF ANY KIND OF AVIARY'S VENDORS.
+
+9.	 INDEMNITY.
+Licensee agrees that Aviary shall have no liability whatsoever for any use Licensee makes of the API. Licensee shall
+indemnify and hold harmless Aviary from any and all claims, damages, liabilities, costs and fees (including reasonable
+attorneys' fees) arising from Licensee's use of the API.
+
+10. TERM AND TERMINATION.
+This Agreement shall continue until terminated as set forth in this Section. Either party may terminate this Agreement at any
+time, for any reason, or for no reason including, but not limited to, if Licensee violates any provision of this Agreement.
+Any termination of this Agreement shall also terminate the license granted hereunder. Upon termination of this Agreement for
+any reason, Licensee shall destroy and remove from all computers, hard drives, networks, and other storage media all copies
+of the API, and shall so certify to Aviary that such actions have occurred. Aviary shall have the right to inspect and audit
+Licensee's facilities to confirm the foregoing. Sections 3 through 11 and all accrued rights to payment shall survive
+termination of this Agreement.
+
+11.	 GOVERNMENT USE.
+If Licensee is part of an agency, department, or other entity of the United States Government ("Government"), the use,
+duplication, reproduction, release, modification, disclosure or transfer of the API are restricted in accordance with the
+Federal Acquisition Regulations as applied to civilian agencies and the Defense Federal Acquisition Regulation Supplement as
+applied to military agencies. The API are a "commercial item," "commercial computer software" and "commercial computer
+software documentation." In accordance with such provisions, any use of the API by the Government shall be governed solely by
+the terms of this Agreement.
+
+12.	 EXPORT CONTROLS.
+Licensee shall comply with all export laws and restrictions and regulations of the Department of Commerce, the United States
+Department of Treasury Office of Foreign Assets Control ("OFAC"), or other United States or foreign agency or authority, and
+Licensee shall not export, or allow the export or re-export of the API in violation of any such restrictions, laws or
+regulations. By downloading or using the API, Licensee agrees to the foregoing and represents and warrants that Licensee is
+not located in, under the control of, or a national or resident of any restricted country.
+
+13.	 MISCELLANEOUS.
+Unless the parties have entered into a written amendment to this agreement that is signed by both parties regarding the
+Aviary API, this Agreement constitutes the entire agreement between Licensee and Aviary pertaining to the subject matter
+hereof, and supersedes any and all written or oral agreements with respect to such subject matter. This Agreement, and any
+disputes arising from or relating to the interpretation thereof, shall be governed by and construed under New York law as
+such law applies to agreements between New York residents entered into and to be performed within New York by two residents
+thereof and without reference to its conflict of laws principles or the United Nations Conventions for the International Sale
+of Goods. Except to the extent otherwise determined by Aviary, any action or proceeding arising from or relating to this
+Agreement must be brought in a federal court in the Southern District of New York or in state court in New York County, New
+York, and each party irrevocably submits to the jurisdiction and venue of any such court in any such action or proceeding.
+The prevailing party in any action arising out of this Agreement shall be entitled to an award of its costs and attorneys'
+fees. This Agreement may be amended only by a writing executed by Aviary. If any provision of this Agreement is held to be
+unenforceable for any reason, such provision shall be reformed only to the extent necessary to make it enforceable. The
+failure of Aviary to act with respect to a breach of this Agreement by Licensee or others does not constitute a waiver and
+shall not limit Aviary's rights with respect to such breach or any subsequent breaches. This Agreement is personal to
+Licensee and may not be assigned or transferred for any reason whatsoever (including, without limitation, by operation of
+law, merger, reorganization, or as a result of an acquisition or change of control involving Licensee) without Aviary's prior
+written consent and any action or conduct in violation of the foregoing shall be void and without effect. Aviary expressly
+reserves the right to assign this Agreement and to delegate any of its obligations hereunder.
+
+Last Updated September 15, 2011

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base theme -->
+    <style name="AviaryBaseTheme" parent="android:Theme.Black.NoTitleBar">
+        <item name="aviaryFontRegular">fonts/Roboto-Bold.ttf</item>
+        <item name="aviaryFontLight">fonts/Roboto-Light.ttf</item>
+                
+        <item name="aviaryProgressBarSmall">@android:style/Widget.ProgressBar.Small</item>
+        <item name="aviaryProgressBarLarge">@android:style/Widget.ProgressBar.Large</item>
+        <item name="aviaryProgressBarMedium">@android:style/Widget.ProgressBar</item>
+        <item name="aviaryProgressBarActionBar">?aviaryProgressBarMedium</item>
+        
+        <item name="aviaryProgressBarSmallInverse">@android:style/Widget.ProgressBar.Small.Inverse</item>
+        <item name="aviaryProgressBarLargeInverse">@android:style/Widget.ProgressBar.Large.Inverse</item>
+        <item name="aviaryProgressBarMediumInverse">@android:style/Widget.ProgressBar.Inverse</item>     
+        
+        <!-- text styles -->
+        <item name="aviaryTextAppearance">@style/AviaryTextAppearance</item>
+        <item name="aviaryTextAppearanceLarge">@style/AviaryTextAppearance.Large</item>
+        <item name="aviaryTextAppearanceLargeNoSelection">@style/AviaryTextAppearance.Large.NoSelected</item>
+        <item name="aviaryTextAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
+        <item name="aviaryTextAppearanceMediumNoSelection">@style/AviaryTextAppearance.Medium.NoSelected</item>
+        <item name="aviaryTextAppearanceSmall">@style/AviaryTextAppearance.Small</item>
+        <item name="aviaryTextAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
+        <item name="aviaryTextAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
+        <item name="aviaryTextAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
+        <item name="aviaryTextAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
+        <item name="aviaryTextAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>        
+        
+        <item name="aviaryDefaultTextStyle">@style/AviaryWidget.TextView</item>
+        <item name="aviaryPrimaryButtonStyle">@style/AviaryWidget.Button</item>
+        <item name="aviarySecondaryButtonStyle">@style/AviaryWidget.Button.Secondary</item>
+        <item name="aviaryLightGrayButtonStyle">@style/AviaryWidget.Button.LightGray</item>
+        <item name="aviaryToggleButtonStyle">@style/AviaryWidget.Button.Secondary.Toggle</item>        
+    </style>
+    
+    <!-- Default dialogs style -->
+    <style name="AviaryBaseTheme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="aviaryFontRegular">fonts/Roboto-Bold.ttf</item>
+        <item name="aviaryFontLight">fonts/Roboto-Light.ttf</item>
+                
+        <item name="aviaryProgressBarSmall">@android:style/Widget.ProgressBar.Small</item>
+        <item name="aviaryProgressBarLarge">@android:style/Widget.ProgressBar.Large</item>
+        <item name="aviaryProgressBarMedium">@android:style/Widget.ProgressBar</item>
+        <item name="aviaryProgressBarActionBar">?aviaryProgressBarMedium</item>
+        
+        <item name="aviaryProgressBarSmallInverse">@android:style/Widget.ProgressBar.Small.Inverse</item>
+        <item name="aviaryProgressBarLargeInverse">@android:style/Widget.ProgressBar.Large.Inverse</item>
+        <item name="aviaryProgressBarMediumInverse">@android:style/Widget.ProgressBar.Inverse</item>
+        
+        <!-- text styles -->
+        <item name="aviaryTextAppearance">@style/AviaryTextAppearance</item>
+        <item name="aviaryTextAppearanceLarge">@style/AviaryTextAppearance.Large</item>
+        <item name="aviaryTextAppearanceLargeNoSelection">@style/AviaryTextAppearance.Large.NoSelected</item>
+        <item name="aviaryTextAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
+        <item name="aviaryTextAppearanceMediumNoSelection">@style/AviaryTextAppearance.Medium.NoSelected</item>
+        <item name="aviaryTextAppearanceSmall">@style/AviaryTextAppearance.Small</item>
+        <item name="aviaryTextAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
+        <item name="aviaryTextAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
+        <item name="aviaryTextAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
+        <item name="aviaryTextAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
+        <item name="aviaryTextAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>   
+        
+        <item name="aviaryDefaultTextStyle">@style/AviaryWidget.TextView</item>
+        <item name="aviaryPrimaryButtonStyle">@style/AviaryWidget.Button</item>
+        <item name="aviarySecondaryButtonStyle">@style/AviaryWidget.Button.Secondary</item>
+        <item name="aviaryLightGrayButtonStyle">@style/AviaryWidget.Button.LightGray</item>
+        <item name="aviaryToggleButtonStyle">@style/AviaryWidget.Button.Secondary.Toggle</item>        
+    </style>    
+    
+
+	<!-- aviary default theme -->
+    <style name="AviaryTheme" parent="AviaryBaseTheme">
+        <item name="aviaryProgressBarActionBarWidth">@dimen/aviary_navbar_progress_width</item>
+        <item name="aviaryProgressBarActionBarHeight">@dimen/aviary_navbar_progress_height</item>
+        
+        <item name="aviaryBackgroundColor">@color/aviary_background_color</item>
+        
+        <!-- custom widgets styles -->
+        <item name="aviarySeekBarStyle">@style/AviaryWidget.AviarySeekBar</item>
+        <item name="aviaryWheelStyle">@style/AviaryWidget.AviaryWheel</item>
+        <item name="aviaryTiltShiftViewStyle">@style/AviaryWidget.TiltShiftView</item>
+        <item name="aviarySymbolMinusStyle">@style/AviaryWidget.SymbolMinus</item>
+        <item name="aviarySymbolPlusStyle">@style/AviaryWidget.SymbolPlus</item>
+        <item name="aviaryCropImageViewStyle">@style/AviaryWidget.CropImageView</item>
+        <item name="aviaryCropHighlightStyle">@style/AviaryGraphics.CropHighlightView</item>
+        <item name="aviaryEdgeEffectDefaultStyle">@style/AviaryWidget.EdgeEffect</item>
+        
+        <item name="aviaryAdjustImageViewStyle">@style/AviaryWidget.AdjustImageView</item>
+        <item name="aviaryAdjustDividerWeight">@integer/aviary_adjust_divider_weight</item>
+        <item name="aviaryAdjustItemWeight">@integer/aviary_adjust_item_weight</item>
+        
+        <item name="aviaryImageViewDrawableOverlayText">@style/AviaryWidget.TextImageView</item>
+        <item name="aviaryImageViewDrawableOverlayTextHighlightStyle">@style/AviaryGraphics.TextHighlightView</item>
+        
+        <item name="aviaryImageViewDrawableOverlaySticker">@style/AviaryWidget.StickerImageView</item>
+        <item name="aviaryImageViewDrawableOverlayStickerHighlightStyle">@style/AviaryGraphics.StickerHighlightView</item>
+        
+        <!-- bottombar styles -->
+        <item name="aviaryBottomBarHeight">@dimen/aviary_bottombar_height</item>
+        <item name="aviaryBottomBarViewFlipperStyle">@style/AviaryWidget.BottomBar.ViewFlipper</item>
+        <item name="aviaryBottomBarLogoContainerStyle">@style/AviaryWidget.BottomBar.Logo.Container</item>
+        <item name="aviaryBottomBarLogoImageStyle">@style/AviaryWidget.BottomBar.Logo.Image</item>
+        <item name="aviaryBottomBarOptionPanelStyle">@style/AviaryWidget.BottomBar.OptionPanel</item>
+        <item name="aviaryBottomBarOptionPanelContainerStyle">@style/AviaryWidget.BottomBar.OptionPanelContainer</item>
+        <item name="aviaryBottomBarOptionPanelContainerStyleNoMargin">@style/AviaryWidget.BottomBar.OptionPanelContainer.BorderLess</item>
+        
+        <item name="aviaryBottomBarHorizontalViewStyle">@style/AviaryWidget.BottomBar.HorizontalScrollView</item>
+        <item name="aviaryBottomBarToolStyle">@style/AviaryWidget.BottomBar.Tool</item>
+        <item name="aviaryBottomBarToolFeedBackStyle">@style/AviaryWidget.BottomBar.Tool.FeedBack</item>
+        <item name="aviaryBottomBarToolImageStyle">@style/AviaryWidget.HighlightImageView.Tool</item>
+        <item name="aviaryBottomBarToolTextStyle">@style/AviaryWidget.TextView.Tool</item>
+        
+        <item name="aviaryHighlightImageButtonStyle">@style/AviaryWidget.HighlightImageView</item>
+        <item name="aviaryLensViewStyle">@style/AviaryWidget.HighlightImageView.Lens</item>
+        
+        <!-- option panel styles -->
+        <item name="aviaryOptionPanelDefaultButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton</item>
+        <item name="aviaryOptionPanelToggleButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle</item>
+        <item name="aviaryOptionPanelToggleLeftButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Left</item>
+        <item name="aviaryOptionPanelToggleCenterButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Center</item>
+        <item name="aviaryOptionPanelToggleRightButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Right</item>
+        
+        <!-- adjust panel button styles -->
+        <item name="aviaryAdjustOptionPanelToggleLeftButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Left.Adjust</item>
+        <item name="aviaryAdjustOptionPanelToggleRightButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Right.Adjust</item>
+        
+        <!-- ehance panel buttons style -->
+        <item name="aviaryEnhanceOptionPanelToggleLeftButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Left.Enhance</item>
+        <item name="aviaryEnhanceOptionPanelToggleCenterButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Center.Enhance</item>
+        <item name="aviaryEnhanceOptionPanelToggleRightButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Right.Enhance</item>
+        <item name="aviaryEnhanceItemWeight">@integer/aviary_enhance_item_weight</item>
+        
+        <!-- focus panel buttons style -->
+        <item name="aviaryFocusOptionPanelToggleLeftButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Left.Focus</item>
+        <item name="aviaryFocusOptionPanelToggleRightButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Right.Focus</item>
+        
+        <!-- color splash option panel button styles -->
+        <item name="aviaryColorSplashOptionPanelToggleButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.TiltShift</item>
+        <item name="aviaryColorSplashOptionPanelToggleLeftButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Left.TiltShift</item>
+        <item name="aviaryColorSplashOptionPanelToggleRightButtonStyle">@style/AviaryWidget.HighlightImageView.OptionPanelButton.Toggle.Right.TiltShift</item>      
+        
+        <item name="aviarySplashDividerWeight">@integer/aviary_color_splash_divider_weight</item>
+        <item name="aviarySplashItemWeight">@integer/aviary_color_splash_item_weight</item>
+        
+        <!-- navigation styles -->
+        <item name="aviaryNavBarStyle">@style/AviaryWidget.NavBar.Main</item>
+        <item name="aviaryNavBarHeight">@dimen/aviary_nav_height</item>
+        <item name="aviaryNavTitleStyle">@style/AviaryWidget.TextView.NavTitle</item>
+        <item name="aviaryNavButtonStyle">@style/AviaryWidget.Button.NavButton</item>
+        <item name="aviaryNavButtonApplyStyle">@style/AviaryWidget.Button.NavButton.Apply</item>
+        <item name="aviaryNavBarRestoreButtonStyle">@style/AviaryWidget.Button.Secondary.NavBarRestore</item>
+        
+        <item name="aviaryImageRestoreViewStyle">@style/AviaryWidget.ImageRestoreSwitcher</item>
+        
+        <!-- spot toast and drawables -->
+        <item name="aviaryPreviewSpotDrawableStyle">@style/AviaryGraphics.PreviewSpot</item>
+        <item name="aviaryPreviewSpotViewStyle">@style/AviaryWidget.PreviewSpot</item>
+        
+        <!-- fill drawable and toast style -->
+        <item name="aviaryPreviewFillDrawableStyle">@style/AviaryGraphics.PreviewFill</item>
+        
+        <item name="aviaryGalleryStyle">@style/AviaryWidget.AviaryGallery</item>
+        <item name="aviaryGalleryTopIndicatorStyle">@style/AviaryWidget.BottomBar.GalleryTopIndicatorView</item>
+        <item name="aviaryGalleryBottomIndicatorStyle">@style/AviaryWidget.BottomBar.GalleryTopIndicatorView.Inverse</item>
+        <item name="aviaryOptionPanelTopIndicatorStyle">@style/AviaryGraphics.GalleryTopIndicator</item>
+        <item name="aviaryOptionPanelBottomIndicatorStyle">@style/AviaryGraphics.GalleryTopIndicator.Inverse</item>
+        <item name="aviaryOptionPanelBottomLineStyle">@style/AviaryGraphics.GalleryBottomLine</item>
+        
+        <item name="aviaryMemeButtonStyle">@style/AviaryWidget.Button.Meme</item>
+        <item name="aviaryMemeClearButtonStyle">@style/AviaryWidget.HighlightImageView.Clear</item>
+        
+        <item name="aviaryGalleryItemContainerStyle">@style/AviaryWidget.BottomBar.GalleryItem.Container</item>
+        <item name="aviaryGalleryItemDividerStyle">@style/AviaryWidget.BottomBar.GalleryItem.Divider</item>
+        <item name="aviaryGalleryItemHighlightImageStyle">@style/AviaryWidget.BottomBar.GalleryItem.HighlightImageView</item>
+        <item name="aviaryGalleryItemCropTextNormalStyle">@style/AviaryWidget.BottomBar.GalleryItem.Crop.TextView</item>
+        <item name="aviaryGalleryItemCropTextCustomStyle">@style/AviaryWidget.BottomBar.GalleryItem.Crop.TextView.Custom</item>
+        <item name="aviaryGalleryItemCropImageViewStyle">@style/AviaryWidget.BottomBar.GalleryItem.Crop.HighlightImageView</item>
+        
+        <item name="aviaryNavDividerStyle">@style/AviaryWidget.NavBar.Divider</item>
+        
+        <item name="aviaryMainImagePadding">@dimen/aviary_main_image_padding</item>
+        <item name="aviaryPanelDisabledStatusBackground">@color/aviary_panel_disabled_status</item>
+        <item name="aviaryHiddenEditTextStyle">@style/AviaryWidget.HiddenText</item>
+        <item name="aviaryHiddenEditTextStyleMultiline">@style/AviaryWidget.HiddenText.TextTool</item>
+        
+        <item name="aviaryEffectsHorizontalViewStyle">@style/AviaryWidget.EffectsHorizontalScrollView</item>
+        
+        <!-- effects and frames -->
+        <item name="aviaryEffectThumbLayoutStyle">@style/AviaryWidget.EffectThumb.Layout</item>
+        <item name="aviaryEffectThumbLayoutExternalStyle">@style/AviaryWidget.EffectThumb.Layout.External</item>
+        <item name="aviaryEffectThumbHiddenSelector">@style/AviaryWidget.EffectThumb.HiddenSelector</item>
+        <item name="aviaryEffectThumbTextStyle">@style/AviaryWidget.EffectThumb.Text</item>
+
+        <item name="aviaryEffectThumbDividerRightContainerStyle">@style/AviaryWidget.EffectThumb.DividerContainer</item>
+        <item name="aviaryEffectThumbDividerLeftContainerStyle">@style/AviaryWidget.EffectThumb.DividerContainer.Left</item>
+        
+        <item name="aviaryEffectThumbDividerRightStyle">@style/AviaryWidget.EffectThumb.Divider</item>
+        <item name="aviaryEffectThumbDividerLeftStyle">@style/AviaryWidget.EffectThumb.Divider.Left</item>
+        <item name="aviaryEffectThumbDividerStyle">@style/AviaryWidget.EffectThumb.PacksDivider</item>
+        <item name="aviaryEffectThumbDividerTextStyle">@style/AviaryGraphics.PluginDividerText</item>
+        
+        <!-- IAP dialog -->
+        <item name="aviaryIAPDialogContainerStyle">@style/AviaryWidget.IAPDialog.Container</item>
+        <item name="aviaryIAPDialogMainLayout">@style/AviaryWidget.IAPDialog.Main</item>
+        
+        <item name="aviaryIAPDialogHeightWeight">@integer/aviary_iap_dialog_height_weight</item>
+        <item name="aviaryIAPDialogMarginTopWeight">@integer/aviary_iap_dialog_margin_top_weight</item>
+        
+        <item name="aviaryIAPDialogWidthWeight">@integer/aviary_iap_dialog_width_weight</item>
+        
+        <item name="aviaryIAPDialogTitleStyle">@style/AviaryWidget.IAPDialog.Text.Title</item>
+        <item name="aviaryIAPDialogTextErrorStyle">@style/AviaryWidget.IAPDialog.Text.Error</item>
+        <item name="aviaryIAPDialogButtonErrorStyle">@style/AviaryWidget.IAPDialog.TextButton.Error</item>
+        <item name="aviaryIAPDialogTextStyle">@style/AviaryWidget.IAPDialog.Text.Description</item>
+        <item name="aviaryIAPDialogListItemTextStyle">@style/AviaryWidget.IAPDialog.Text.ListViewItemDescription</item>
+        <item name="aviaryIAPDialogListItemTitleStyle">@style/AviaryWidget.IAPDialog.Text.ListViewItemTitle</item>
+        <item name="aviaryIAPBannerTextStyle">@style/AviaryWidget.IAPDialog.Text.Banner</item>
+        <item name="aviaryIAPDialogWorkspaceStyle">@style/AviaryWidget.IAPDialog.Workspace</item>
+        <item name="aviaryIAPDialogWorkspaceIndicatorStyle">@style/AviaryWidget.IAPDialog.WorkspaceIndicator</item>
+        <item name="aviaryIAPDialogGridBackground">@drawable/aviary_iap_grid_background</item>
+        <item name="aviaryIAPDialogGridTopStyle">@style/AviaryWidget.IAPDialog.TopGrid</item>
+        <item name="aviaryIAPDialogShadowTop">@style/AviaryWidget.IAPDialog.ShadowTop</item>
+        <item name="aviaryIAPDialogShadowBottom">@style/AviaryWidget.IAPDialog.ShadowBottom</item>
+        <item name="aviaryIAPDialogIcon">@style/AviaryWidget.IAPDialog.Icon</item>
+        <item name="aviaryIAPDialogDownloadButtonStyle">@style/AviaryWidget.IAPDialog.DownloadButton</item>
+        <item name="aviaryIAPDialogDownloadButtonTextStyle">@style/AviaryWidget.IAPDialog.DownloadButtonText</item>
+        <item name="aviaryIAPDialogRestoreAllButtonStyle">@style/AviaryWidget.IAPDialog.RestoreAllButton</item>
+        <item name="aviaryIAPDialogRestoreDialogTextStyle">@style/AviaryWidget.IAPDialog.RestoreDialog</item>
+        <item name="aviaryIAPDialogWorkspaceCellEffects">@style/AviaryWidget.IAPDialog.SingleCell</item>
+        <item name="aviaryIAPDialogWorkspaceCellStickers">@style/AviaryWidget.IAPDialog.SingleCell.Stickers</item>
+        
+        <!-- Feedback -->
+        <item name="aviaryFeedbackDialogStyle">@style/AviaryDialog.MainLayout</item>
+        <item name="aviaryFeedbackDialogTextVersionStyle">?aviaryDefaultTextStyle</item>
+        <item name="aviaryFeedbackDialogDividerStyle">@style/AviaryDialog.Divider</item>
+        <item name="aviaryFeedbackDialogTextMessageStyle">@style/AviaryDialog.Feedback.Text</item>
+        
+        <!-- buttons for the custom dialogs ( feedback, about, ... ) -->
+        <item name="aviaryCustomDialogButtonStyle">?aviaryPrimaryButtonStyle</item>
+        <item name="aviaryCustomDialogButtonSecondaryStyle">?aviarySecondaryButtonStyle</item>
+        
+        <!-- toast loader -->
+		<item name="aviaryLoaderToastStyle">@style/AviaryWidget.ModalToastLoader.MainView</item>
+		<item name="aviaryToastExitAnimation">@anim/aviary_toast_exit</item>
+		
+		<item name="sephiroth_listPreferredItemWidth">64dip</item>
+    </style>
+
+    <!-- Dialogs themes -->
+    <style name="AviaryTheme.Dialog" parent="AviaryBaseTheme.Dialog">
+    </style>
+        
+    <!-- Custom dialogs -->
+    <style name="AviaryTheme.Dialog.Custom">
+        <item name="android:windowBackground">@drawable/aviary_home_dialog_background</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.buzzbox.demo.helloworld"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <uses-sdk android:minSdkVersion="3" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <application android:icon="@drawable/icon_notification_cards_clubs" android:label="@string/app_name">
+        <activity android:name=".HelloWorldActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name="com.buzzbox.mob.android.scheduler.NotificationClickActivity"/>
+        <activity android:name="com.buzzbox.mob.android.scheduler.ui.SchedulerPreferenceActivity"/>
+        <activity android:name="com.buzzbox.mob.android.scheduler.ui.SchedulerLogActivity"/>
+        <receiver android:name="com.buzzbox.mob.android.scheduler.BootReceiverSchedulerManager">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.buzzbox.mob.android.scheduler.TimeChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.buzzbox.mob.android.scheduler.AlarmReceiver"/>
+        <service android:name="com.buzzbox.mob.android.scheduler.ScheduledService"/>
+        
+        <meta-data android:name="Scheduler.Analytics.apiKey" android:value="debug-api-key"/> <!-- sign up at http://hub.buzzbox.com and get your ApiKey -->
+        
+    </application>
+</manifest>

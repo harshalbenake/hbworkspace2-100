@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook
+END
+FacebookGraphObjectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookGraphObjectException.java
+END
+LegacyHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/LegacyHelper.java
+END
+LoggingBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/LoggingBehavior.java
+END
+FacebookDialogException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookDialogException.java
+END
+NativeProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/NativeProtocol.java
+END
+FacebookServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookServiceException.java
+END
+RequestAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/RequestAsyncTask.java
+END
+FacebookSdkVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookSdkVersion.java
+END
+AccessTokenSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/AccessTokenSource.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/Session.java
+END
+TestSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/TestSession.java
+END
+FacebookRequestError.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookRequestError.java
+END
+UiLifecycleHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/UiLifecycleHelper.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/Response.java
+END
+AuthorizationClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/AuthorizationClient.java
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/Settings.java
+END
+AccessToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/AccessToken.java
+END
+NonCachingTokenCachingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/NonCachingTokenCachingStrategy.java
+END
+FacebookAuthorizationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookAuthorizationException.java
+END
+GetTokenClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/GetTokenClient.java
+END
+HttpMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/HttpMethod.java
+END
+TokenCachingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/TokenCachingStrategy.java
+END
+SessionState.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/SessionState.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/LoginActivity.java
+END
+SessionDefaultAudience.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/SessionDefaultAudience.java
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/Request.java
+END
+FacebookException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookException.java
+END
+FacebookOperationCanceledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/FacebookOperationCanceledException.java
+END
+InsightsLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/InsightsLogger.java
+END
+SharedPreferencesTokenCachingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/SharedPreferencesTokenCachingStrategy.java
+END
+RequestBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/RequestBatch.java
+END
+SessionLoginBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/SessionLoginBehavior.java
+END

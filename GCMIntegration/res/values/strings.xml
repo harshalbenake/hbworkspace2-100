@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HBDEMO</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- GCM PUSH NOTIFICATION GOOGLE CREDENTIAL -->
+    <string name="gcm_project_id">306692553495</string>
+    <!-- Live URL -->
+    <string name="url">http://app.txtshield.com/api.php?</string>
+    <string name="key">61sczKhSXD</string>
+    <string name="method_device_register">device_register</string>
+    <string name="version">basic</string>
+
+</resources>

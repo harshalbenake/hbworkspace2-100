@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aviary.android.feather"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+    <!-- 
+    minimum supported version by the Aviary-SDK is android-9
+    target version must be android-19
+     -->
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+    
+	<!-- REQUIRED PERMISSIONS -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    
+    <!-- OPTIONAL PERMISSIONS -->
+    <!-- This permission is not required, but recommended -->
+    <!-- <uses-permission android:name="android.permission.VIBRATE" /> -->
+
+	<!-- For PCN only partners -->    
+	<!-- You need these permissions in order to enable the in-app billing -->
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->    
+    
+    <application>
+        
+        
+        <!-- Main SDK Editor -->
+        <!-- 
+        <activity
+            android:name="com.aviary.android.feather.FeatherActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:finishOnTaskLaunch="true"
+            android:hardwareAccelerated="true"
+            android:process=":aviarysdk"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AviaryTheme"
+            android:uiOptions="splitActionBarWhenNarrow" /> 
+		-->           
+        
+        <!-- Alert Activity-->
+        <!-- 
+        <activity
+            android:name="com.aviary.android.feather.AlertActivity"
+            android:launchMode="standard"
+            android:noHistory="true"
+            android:theme="@style/AviaryTheme.Dialog">
+            <intent-filter>
+                <action android:name="aviary.intent.action.ALERT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        -->
+        
+        <!-- 
+        	Required for the hi-res image processing
+        	The "android:authorities" attribute must be unique, so please use your app's package path in this way:
+        	android:authorities="{your.package.name}.HiResProvider" 
+        -->
+        <!-- 
+        <provider 
+            android:name="com.aviary.android.feather.library.providers.FeatherContentProvider"
+            android:exported="false"
+            android:authorities="com.aviary.launcher3d.HiResProvider"
+            android:process=":aviarysdk">
+        </provider>
+        -->
+        
+        <!-- CDS Content Service -->
+        <!-- 
+		<service
+		    android:process=":aviarycds"
+		    android:name="com.aviary.android.feather.cds.AviaryCdsService"
+            android:exported="false">
+		    <intent-filter>
+		        <action android:name="aviary.intent.action.CDS_DOWNLOAD_START"/>
+		        <action android:name="aviary.intent.action.CDS_RESTORE_USER_ITEMS"/>
+		    </intent-filter>
+		</service>
+		-->        
+		
+		<!-- 
+			Cds Content Provider, 
+			NOTE that the "authorities" value MUST be formatted in this way:
+			android:authorities="{your.packagename}.AviaryCdsProvider"
+		-->
+		<!-- 
+        <provider
+            android:name="com.aviary.android.feather.cds.AviaryCdsProvider"
+            android:authorities="com.aviary.launcher3d.AviaryCdsProvider"
+            android:process=":aviarycds"
+            android:exported="false"
+            android:syncable="true" />
+		-->		 
+        
+        <!-- CDS Download Receiver -->
+        <!-- 
+        <receiver 
+            android:name="com.aviary.android.feather.cds.AviaryCdsReceiver"
+            android:process=":aviarycds" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+        -->
+        
+        <!-- 
+        	get your Aviary API Key for free at http://aviary.com/android
+        	and uncomment the following section, replacing "your_api_key_here" with your api key 
+        -->
+        
+        <!-- 
+		<meta-data
+        	android:name="com.aviary.android.feather.v1.API_KEY"
+        	android:value="XXXXXXXXXXXXXX" />
+        -->
+        
+    </application>
+</manifest>

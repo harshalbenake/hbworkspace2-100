@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aviary_panel"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyleNoMargin" >
+
+    <!-- thumbnails list container -->
+    <it.sephiroth.android.library.widget.HListView
+        android:id="@+id/aviary_list"
+        style="?attr/aviaryEffectsHorizontalViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:choiceMode="multipleChoice"
+        android:background="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+         />
+    
+    <!-- loader -->
+    <include
+        android:id="@+id/aviary_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        layout="@layout/aviary_progress_small" />
+
+</RelativeLayout>

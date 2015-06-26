@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="aviary_background_color">#ff141619</color>
+    
+    <color name="aviary_primary_color">#ffffffff</color>
+    <color name="aviary_primary_color_pressed">#FF00b1fd</color>
+    
+    <color name="aviary_highlighted_text_light">#6633b5e5</color>
+    <color name="aviary_link_text_light">#0000ee</color>
+    <color name="aviary_hint_foreground_light">#808080</color>
+    
+    <color name="aviary_nav_primary_color">#FF303740</color>
+    <color name="aviary_nav_secondary_color">#ff21262b</color>
+    
+    <color name="aviary_nav_divider_light">#FF474951</color>
+    <color name="aviary_nav_divider_dark">#FF000000</color>
+    
+    <color name="aviary_logo_primary_color">#FF23282e</color>
+    <color name="aviary_logo_secondary_color">#ff21262b</color>    
+    
+    <!-- default highlight color -->
+    <color name="aviary_primary_highlight_color">#FF00b1fd</color>
+    
+    <!-- settings highlight color -->
+    <color name="aviary_primary_highlight_color_muted">#4400b1fd</color>
+    
+    <!-- highlight color inverted -->
+    <color name="aviary_primary_highlight_color_inverted">#FF333333</color>
+    
+    <color name="aviary_workspace_indicator_selected_startColor">#ff0df5ff</color>
+    <color name="aviary_workspace_indicator_selected_endColor">#ff0a7bdb</color>
+    
+    <color name="aviary_workspace_indicator_normal_startColor">#ff505c63</color>
+    <color name="aviary_workspace_indicator_normal_endColor">#ff18191a</color>    
+    
+    <color name="aviary_primary_color_inverted">#ff000000</color>
+    <color name="aviary_primary_color_pressed_inverted">#FF666666</color>
+    <color name="aviary_primary_color_disabled_inverted">#FF999999</color>
+    <color name="aviary_highlighted_text_light_inverted">#66999999</color>
+    <color name="aviary_link_text_light_inverted">#0000ee</color>
+    <color name="aviary_hint_foreground_light_inverted">#808080</color>
+    
+    <color name="aviary_iap_link_color_normal">#ff00b0fc</color>
+    <color name="aviary_iap_link_color_selected">#ff0070ee</color>
+    <color name="aviary_iap_link_color_pressed">#ff0070ee</color>
+    <color name="aviary_iap_list_divider">#ffcccccc</color>
+    <color name="aviary_iap_restore_all_button_color">#343c46</color>
+    <color name="aviary_iap_workspace_background">#ffffffff</color>
+    
+    <!-- 
+    ############################ EFFECTS/FRAMES/STICKERS ####################
+     -->
+    
+    <!-- effects/frames/stickers items background color ( inverted ) -->
+    <color name="aviary_bottom_primary_color_inverse_light">#FF20252b</color>
+    <color name="aviary_bottom_primary_color_inverse_dark">#FF131619</color>
+    
+    <!-- thumbnail stroke color -->
+    <color name="aviary_effect_thumb_stroke_color">#FF131619</color>
+    
+    <!-- iap dialog cell layout background -->
+    <color name="aviary_iap_cell_layout_background">#66d4dbe2</color>
+    
+    <!-- iap dialog main color background -->
+    <color name="aviary_iap_background">#bf000000</color>
+
+    <!-- spot circle -->
+    <color name="aviary_circle_light">#ffe8eef4</color>
+    <color name="aviary_circle_dark">#ffbbcedf</color>
+    <color name="aviary_circle_selected_light">#ff00baff</color>
+    <color name="aviary_circle_selected_dark">#ff0090f4</color>
+    <color name="aviary_circle_background_normal">#ffffffff</color>
+    <color name="aviary_circle_background_selected">#ff00dcff</color>
+
+    <!-- gallery item background color when selected -->
+    <color name="aviary_gallery_item_background_color2">#44000000</color>
+
+    <!-- main loader background color -->
+    <color name="aviary_main_loader_background">#DD000000</color>
+
+    <!-- disabled status for panels -->
+    <color name="aviary_panel_disabled_status">#99000000</color>
+
+    <!-- 
+    ############################ CROP ####################
+     -->    
+    <color name="aviary_crop_stroke_color">#ffe1e1e1</color>
+    <color name="aviary_crop_stroke_color_pressed">#ffe1e1e1</color>
+    <color name="aviary_crop_stroke_internal_color">#49e1e1e1</color>
+    <color name="aviary_crop_stroke_internal_color_pressed">#1fe1e1e1</color>
+    <color name="aviary_crop_fill_color">#77000000</color>
+    <color name="aviary_crop_fill_color_pressed">#77000000</color>
+    
+    <!-- 
+    ############################ ORIENTATION ####################
+    -->
+     
+     <color name="aviary_adjust_stroke_color">#ffe1e1e1</color>
+     <color name="aviary_adjust_internal_stroke_color">#ffe1e1e1</color>
+     <color name="aviary_adjust_fill_color">#77000000</color>
+
+     <!-- 
+    ############################ MEME ####################
+    -->
+    
+    <color name="aviary_meme_text_color">#FFFFFFFF</color>
+    <color name="aviary_meme_stroke_color">#FF000000</color>
+
+	<!-- 
+    ############################ TEXT ####################
+    -->
+    
+    <!-- highlight drawable background, stroke color -->
+    <color name="aviary_text_highlight_background_normal">#ff000000</color>
+    <!-- highlight drawable background, stroke inner color pressed -->
+    <color name="aviary_text_highlight_background_inner_pressed">#ffe1e1e1</color>
+     
+</resources>

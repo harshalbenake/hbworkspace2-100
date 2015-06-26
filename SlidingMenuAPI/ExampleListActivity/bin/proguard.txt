@@ -1,0 +1,117 @@
+# view res/layout/pager.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:44
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:27
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:44
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:25
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large/res/layout-large/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:27
+# view res/layout/abs__screen_action_bar.xml #generated:51
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:30
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:53
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:27
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:28
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:37
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:41
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:37
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:38
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:32
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:36
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:32
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:33
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.TabsLinearLayout { <init>(...); }
+
+# view res/layout/abs__search_view.xml #generated:84
+-keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.crittercism.NotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.jeremyfeinstein.slidingmenu.example.AttachExample { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.jeremyfeinstein.slidingmenu.example.ExampleListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.jeremyfeinstein.slidingmenu.example.HBDEMO { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.jeremyfeinstein.slidingmenu.example.LeftAndRightActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.jeremyfeinstein.slidingmenu.example.PropertiesActivity { <init>(...); }
+
+# view res/layout/menu.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.example.SampleListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.jeremyfeinstein.slidingmenu.example.SlidingContent { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.jeremyfeinstein.slidingmenu.example.SlidingTitleBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.jeremyfeinstein.slidingmenu.example.ViewPagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.jeremyfeinstein.slidingmenu.example.anim.CustomRotateAnimation { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.jeremyfeinstein.slidingmenu.example.anim.CustomScaleAnimation { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.jeremyfeinstein.slidingmenu.example.anim.CustomSlideAnimation { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.jeremyfeinstein.slidingmenu.example.anim.CustomZoomAnimation { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.jeremyfeinstein.slidingmenu.example.fragments.BirdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.jeremyfeinstein.slidingmenu.example.fragments.FragmentChangeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.jeremyfeinstein.slidingmenu.example.fragments.ResponsiveUIActivity { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+

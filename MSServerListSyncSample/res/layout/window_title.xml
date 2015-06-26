@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="35dip" android:gravity="center_vertical"
+	android:paddingLeft="5dip" android:background="#323331">
+	<TextView android:id="@+id/header" android:text="Test"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:gravity="right|center_vertical" android:paddingRight="5dip">
+		<TextView android:id="@+id/title" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="11dip"
+			android:paddingRight="5dip" />
+		<!-- 	
+		<ImageView android:id="@+id/icIcon" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_add" />
+			 -->
+		<ImageView android:id="@+id/icSync" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@anim/syncanim" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,178 @@
+<resources>
+    <dimen name="aviary_textSizeSmall">12sp</dimen>
+    <dimen name="aviary_textSizeMedium">14sp</dimen>
+    <dimen name="aviary_textSizeLarge">22sp</dimen>
+    
+    <!-- store dialog title text size -->
+    <dimen name="aviary_textSizeIAPTitle">18sp</dimen>
+    
+    <!-- actionbar height -->
+    <dimen name="aviary_navbar_height">48dip</dimen>
+    
+    <!-- actionbar progress size -->
+    <dimen name="aviary_navbar_progress_height">34dip</dimen>
+    <dimen name="aviary_navbar_progress_width">34dip</dimen>
+    
+    <!-- dimension for the main tool labels -->
+    <dimen name="aviary_textSizeTools">12sp</dimen>
+    
+    <dimen name="aviary_tool_margin">12dip</dimen>
+    
+    <!-- height of the bottom bar -->
+    <dimen name="aviary_bottombar_height">100dip</dimen>
+    
+    <!-- navigation color divider size -->
+    <dimen name="aviary_nav_divider">1dip</dimen>
+    
+    <!-- navigation color divider size ( 2x ) -->
+    <dimen name="aviary_nav_divider_double">2dip</dimen>
+    
+    <!-- navigation view height -->
+    <dimen name="aviary_nav_height">48dip</dimen>
+    
+    <!-- default glow intensity for buttons -->
+    <integer name="aviary_button_highlight_glow_size">7</integer>
+    
+    <!-- 
+    	For panels with a custom Toast, these will be the width and height of the Toast 
+    -->
+    <dimen name="aviary_spot_toast_width">120dip</dimen>
+    <dimen name="aviary_spot_toast_height">120dip</dimen>
+    
+    <!-- dimensions for panels with a gallery widget -->
+    <dimen name="aviary_gallery_item_width">60dip</dimen>
+    <dimen name="aviary_gallery_top_indicator_height">16dip</dimen>
+    <dimen name="aviary_gallery_bottom_indicator_height">14dip</dimen>
+    <dimen name="aviary_gallery_mid_indicator_height">5dip</dimen>
+    <dimen name="aviary_gallery_margin_top">7dip</dimen>
+    <dimen name="aviary_gallery_margin_bottom">6dip</dimen>
+    
+    <!-- main loader background shape radius -->
+    <dimen name="aviary_main_loader_radius">12dip</dimen>
+    <!-- main loader shape padding -->
+    <dimen name="aviary_main_loader_padding">30dip</dimen>
+    
+    <!-- main image padding -->
+    <dimen name="aviary_main_image_padding">2dip</dimen>
+    
+    <!-- left and right margins for the wheel -->
+    <dimen name="aviary_wheel_margin_horizontal">4dip</dimen>
+    
+    <!-- option panel button horizontal/vertical padding -->
+    <dimen name="aviary_optionpanel_button_padding_left">16dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_right">16dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_top">7dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_bottom">9dip</dimen>
+    
+    <!--
+    ############################ COLOR SPLASH #################### 
+     -->    
+    
+    <!-- default brush size for the color splash view -->
+    <dimen name="aviary_color_splash_brush_size">13dip</dimen>
+    
+	<!-- option panel button horizontal/vertical padding -->
+    <dimen name="aviary_color_splash_button_padding_left">12dip</dimen>
+    <dimen name="aviary_color_splash_button_padding_right">12dip</dimen>    
+    
+    
+    <!--
+    ############################ CROP #################### 
+     -->
+    
+    <!-- hightlight crop stroke width -->
+    <dimen name="aviary_crop_stroke_width">2dip</dimen>
+    <!-- stroke size for the internal lines -->
+    <dimen name="aviary_crop_stroke_internal_width">1sp</dimen>
+    <!-- minimum crop area -->
+	<dimen  name="aviary_crop_min_size">50dip</dimen>    
+	
+	
+    <!--
+    ############################ TEXT #################### 
+     -->	
+	
+	<dimen name="aviary_text_overlay_min_size">12sp</dimen>
+	<dimen name="aviary_text_overlay_padding">20dip</dimen>
+	<dimen name="aviary_text_overlay_default_size">26sp</dimen>
+	
+	<!-- highlight drawable, inner radius -->
+	<dimen name="aviary_text_highlight_background_radius">6dip</dimen>
+	<!-- highlight drawable, outer stroke -->
+	<dimen name="aviary_text_highlight_background_stroke_width">2dip</dimen>
+	<!-- highlight drawable, inner stroke -->
+	<dimen name="aviary_text_highlight_background_inner_stroke_width">1dip</dimen>
+	
+	<!-- 
+	############################ ORIENTATION #################### 
+	 -->
+	
+	<!-- grid external stroke width -->
+	<dimen name="aviary_adjust_strokeWidth">2sp</dimen>
+	<!-- grid internal stroke width -->
+	<dimen name="aviary_adjust_strokeWidth2">1sp</dimen>
+	
+    <!-- adjust option panel button horizontal/vertical padding -->
+    <dimen name="aviary_adjust_button_padding_left">0dip</dimen>
+    <dimen name="aviary_adjust_button_padding_right">0dip</dimen>
+	
+	<!-- 
+	############################ ENHANCE #################### 
+	 -->
+    
+	<!-- option panel button horizontal/vertical padding -->
+    <dimen name="aviary_enhance_button_padding_left">12dip</dimen>
+    <dimen name="aviary_enhance_button_padding_right">12dip</dimen>
+    
+	<!-- 
+	############################ FOCUS #################### 
+	 -->
+    
+	<!-- option panel button horizontal/vertical padding -->
+    <dimen name="aviary_focus_button_padding_left">18dip</dimen>
+    <dimen name="aviary_focus_button_padding_right">18dip</dimen>
+	
+	<!-- 
+	############################ EFFECTS/FRAMES #################### 
+	 -->
+	 
+	 <dimen name="aviary_frame_item_width">72dip</dimen>
+	 <dimen name="aviary_frame_item_image_width">62dip</dimen>
+	 
+	 <!-- thumbnail padding -->
+	 <dimen name="aviary_effect_thumb_padding">2dip</dimen>
+	 <!-- thumbmail corner radius size -->
+	 <dimen name="aviary_effect_thumb_radius">3dip</dimen>
+	 <!-- thumbnail stroke size -->
+	 <dimen name="aviary_effect_thumb_stroke">1dip</dimen>
+	 <!-- thumb margin bottom -->
+	 <dimen name="aviary_effect_thumb_margin_bottom">8dip</dimen>
+	
+	<!-- 
+	############################ STICKERS #################### 
+	 -->	
+	 
+	 <dimen name="aviary_sticker_pack_width">72dip</dimen>
+	 <dimen name="aviary_sticker_pack_image_width">64dip</dimen>	 
+	 <dimen name="aviary_sticker_single_item_width">90dip</dimen>
+	 <dimen name="aviary_sticker_single_item_image_width">70dip</dimen>
+	 <dimen name="aviary_sticker_overlay_min_size">20dip</dimen>
+	 <dimen name="aviary_sticker_overlay_padding">20dip</dimen>
+	 
+	 
+	 
+	<!-- 
+	############################ IAP-DIALOG #################### 
+	 -->
+	 
+	<dimen name="aviary_iap_buy_button_width">80dip</dimen>
+	<dimen name="aviary_iap_detail_icon_maxsize">78dip</dimen>
+	<dimen name="aviary_iap_list_item_image_size">56dip</dimen>
+	<dimen name="aviary_iap_list_divider_height">1px</dimen>
+	<dimen name="aviary_iap_list_item_padding_left">8dip</dimen>
+	<dimen name="aviary_iap_list_item_padding_right">8dip</dimen>
+	
+	<dimen name="aviary_iap_list_item_padding_top">5dip</dimen>
+	<dimen name="aviary_iap_list_item_padding_bottom">5dip</dimen>
+		 
+</resources>

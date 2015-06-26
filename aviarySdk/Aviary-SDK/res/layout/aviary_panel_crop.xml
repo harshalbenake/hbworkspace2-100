@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyleNoMargin"
+    android:orientation="vertical" >
+
+    <com.aviary.android.feather.widget.AviaryGallery
+        android:id="@+id/aviary_gallery"
+        style="?attr/aviaryGalleryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/aviary_bottom_line"
+        android:layout_marginTop="@dimen/aviary_gallery_margin_top"
+        android:clipChildren="true"
+        android:clipToPadding="true" />
+
+    <com.aviary.android.feather.widget.AviaryGalleryTopIndicatorView style="?attr/aviaryGalleryTopIndicatorStyle" />
+
+    <LinearLayout
+        android:id="@+id/aviary_bottom_line"
+        style="?attr/aviaryOptionPanelBottomLineStyle"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+
+</RelativeLayout>

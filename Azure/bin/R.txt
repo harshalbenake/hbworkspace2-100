@@ -1,0 +1,7 @@
+int drawable ic_launcher 0x7f020000
+int id button1 0x7f050001
+int id textView1 0x7f050000
+int layout activity_main 0x7f030000
+int string app_name 0x7f040001
+int string dummyString 0x7f040000
+int string hello_world 0x7f040002

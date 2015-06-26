@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aviary.android.feather.widget.IAPBuyButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aviary_buy_button"
+    style="?attr/aviaryIAPDialogDownloadButtonStyle"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:duplicateParentState="true"
+        android:id="@+id/aviary_buy_button_text"
+        style="?attr/aviaryIAPDialogDownloadButtonTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/aviary_buy_button_loader"
+        style="?attr/aviaryProgressBarSmallInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:layout_centerInParent="true" />
+
+</com.aviary.android.feather.widget.IAPBuyButton>

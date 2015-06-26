@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Large screen, landscape mode, configuration -->
+
+<resources>
+    <integer name="aviary_iap_dialog_height_weight">90</integer>
+    <integer name="aviary_iap_dialog_width_weight">100</integer>
+</resources>

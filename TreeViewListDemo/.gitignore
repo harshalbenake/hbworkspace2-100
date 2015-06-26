@@ -1,0 +1,21 @@
+#Android
+.metadata
+*.class
+*.apk
+*.ap_
+*.dex
+*.iws
+bin/
+gen/
+out/
+local.properties
+
+#IntellJ Idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+#Calabash
+test_servers
+
+#Application Specific

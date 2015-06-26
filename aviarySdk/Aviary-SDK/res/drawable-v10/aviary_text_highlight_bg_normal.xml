@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- text highlight only for API 10 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/aviary_text_highlight_background_radius" />
+            <stroke android:color="@color/aviary_text_highlight_background_normal" android:width="@dimen/aviary_text_highlight_background_stroke_width" />
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+
+</layer-list>

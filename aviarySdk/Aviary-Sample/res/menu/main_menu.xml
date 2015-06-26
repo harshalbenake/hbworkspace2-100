@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:title="@string/get_mobile_library"
+		android:icon="@android:drawable/ic_menu_save"
+		android:id="@+id/get_sdk"></item>
+	<item
+		android:title="@string/view_documentation"
+		android:icon="@android:drawable/ic_menu_info_details"
+		android:id="@+id/view_documentation"></item>
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InAppPurchase_AS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--IN APP PURCHASE-->
+    <string name="base64_encoded_public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3KjotzZacVLuggZOmNaQDIkTz0lTRZhdMYwZQSmCGJwdS6B6eumw3Bx+w6GRRMPCCTJM5+4JUyxk9imn0IBQb1zPjf5C4d8G5werzJjiIMVenDnaRqrFJi9KLkU77iV7FrVApegXhZZ+Po344yIiRIzILyNvpBoGXJ73kbM0EbrfJ5Q1pZlPWaXMUzjRvJ4eGIt49keu7eXTXsMZ7OQmpKmZ5G6LBjPJ4kkkC0bJc2t6oMdbbHtwR7hssAZOWtGas18mpKF4CKusmDdornkc6N3o8Jc4NggdUsZK/DQIQULOhmuctfZbd0u3pfYydIz6tge6s5HwTLCdRAy8tjRm+wIDAQAB</string>
+    <string name="in_app_purchase_payload_key">QZbtC0ibquXs771mEib5HCeiTJB9VWdWDUb7kA81oATuBbp0JAw4NCqd4vazM49DNzcoCjRlS8sy1r2a441</string>
+
+
+</resources>

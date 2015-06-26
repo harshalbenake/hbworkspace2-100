@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <title>{appName}</title>
+	<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js"></script>
+
+
+<Script Language="JavaScript">
+function onLoad() {
+$(document).ready(function() {
+
+  if (navigator.userAgent.match(/Android/i)) {
+    window.scrollTo(0,0); // reset in case prev not scrolled
+    var nPageH = $(document).height();
+    var nViewH = window.outerHeight;
+    if (nViewH > nPageH) {
+      nViewH -= 250;
+      $('BODY').css('height',nViewH + 'px');
+    }
+    window.scrollTo(0,1);
+  }
+
+});
+}
+
+function load(url) {
+	var load = window.location = url;
+}
+// -->
+</Script>
+</head>
+<body>
+
+<div data-role="page" id="home">
+
+  <div data-role="header">
+    <h1>{appName}</h1>
+  </div>
+  <div data-role="content">
+	<div>
+	<section id="about">
+				<header style="text-align:center;">
+					<h3><div>Hello and Welcome!</div></h3>
+				</header>
+				<p><div>Android <b>{appName}</b> test version is ready!</div>
+	</section>
+	</div>
+	<div>
+	    <ul data-role="listview" data-inset="true" data-theme="a">
+				<li>
+					<h3><img src="Icon.png" height="81px"><a href="#description">Description</a></h3>
+					<p>{appName}</p>
+				</li>
+                <li>
+                    <h3><a href="#changelog">Changelog: {version}</a></h3>
+                </li>
+	   </ul>
+    </div>
+    Downloads:
+    <div>
+       <ul data-role="listview" data-inset="true" data-theme="a">
+                {downloads}
+       </ul>
+    </div>
+    <div> <!-- Help --!>
+    <ul data-role="listview" data-inset="true">
+				<li><a href="#contactForm">General help</a></li>
+			</ul>
+    </div>
+  </div>
+
+</div>
+
+<!-- Changelog --!>
+<div data-role="page" id="changelog">
+
+  <div data-role="header">
+    <h1>Changelog</h1>
+  </div>
+
+  <div data-role="content">
+    {changeLog}
+  </div>
+
+</div>
+<!-- End of changelog --!>
+
+<!-- Description --!>
+<div data-role="page" id="description">
+
+  <div data-role="header">
+    <h1>Description</h1>
+  </div>
+
+  <div data-role="content">
+  <ul>
+    {description}
+  </ul>
+  </div>
+</div>
+
+<!-- End of description --!>
+
+<!-- Contact form --!>
+<div data-role="page" id="contactForm">
+  <div data-role="header">
+    <h1>Help</h1>
+  </div>
+  <div data-role="content">
+    <section id="about">
+		<p>Having problems with our build system? Please contact <a href="mailto:build.system@polidea.pl">build.system@polidea.pl</a>, we'll be pleased to give an answer to any of your questions!</p>
+	</section>
+   </div>
+
+</div>
+<!-- End of contact form --!>
+</body>
+</html>

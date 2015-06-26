@@ -1,0 +1,27 @@
+buildscript {
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
+    repositories {
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath ('com.apphance.ameba:Ameba:0.99.4.1-SNAPSHOT')
+    }
+}
+
+apply plugin: 'ameba-project-configuration'
+apply plugin: 'ameba-mercurial'
+//apply plugin: 'ameba-git'
+apply plugin: 'ameba-android-build'
+apply plugin: 'ameba-project-release'
+apply plugin: 'ameba-android-release'
+//apply plugin: 'ameba-android-apphance'
+apply plugin: 'ameba-android-analysis'
+//apply plugin: 'ameba-android-test'
+//apply plugin: 'ameba-android-jarlibrary'
+apply from: 'http://dev.polidea.pl/ext/Ameba/polidea_conventions.gradle'

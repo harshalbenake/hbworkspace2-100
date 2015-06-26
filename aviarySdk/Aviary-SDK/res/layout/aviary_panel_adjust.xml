@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_weight="?attr/aviaryAdjustItemWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/aviary_button1"
+                    style="?attr/aviaryAdjustOptionPanelToggleLeftButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aviary_ic_rotate_left"
+                    android:contentDescription="@string/feather_acc_rotate_ccw"
+                    aviary:aviary_toggleable="false" />
+
+                <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/aviary_button2"
+                    style="?attr/aviaryAdjustOptionPanelToggleRightButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aviary_ic_rotate_right"
+                    android:contentDescription="@string/feather_acc_rotate_cw"
+                    aviary:aviary_toggleable="false" />
+            </LinearLayout>
+
+            <com.aviary.android.feather.widget.AviaryTextView
+                style="?attr/aviaryBottomBarToolTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_rotate" />
+        </LinearLayout>
+        
+        <View 
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="?attr/aviaryAdjustDividerWeight"/>
+        
+        <LinearLayout
+            android:layout_weight="?attr/aviaryAdjustItemWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/aviary_button3"
+                    style="?attr/aviaryAdjustOptionPanelToggleLeftButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aviary_ic_flip_horizontal"
+                    android:contentDescription="@string/feather_acc_flip_h"
+                    aviary:aviary_toggleable="false" />
+
+                <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/aviary_button4"
+                    style="?attr/aviaryAdjustOptionPanelToggleRightButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aviary_ic_flip_vertical"
+                    android:contentDescription="@string/feather_acc_flip_v"
+                    aviary:aviary_toggleable="false" />
+            </LinearLayout>
+
+            <com.aviary.android.feather.widget.AviaryTextView
+                style="?attr/aviaryBottomBarToolTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_flip" />
+        </LinearLayout>        
+            
+
+</LinearLayout>

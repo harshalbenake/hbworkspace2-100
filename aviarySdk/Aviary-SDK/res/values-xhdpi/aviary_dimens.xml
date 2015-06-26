@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="aviary_textSizeSmall">12sp</dimen>
+    <dimen name="aviary_textSizeMedium">14sp</dimen>
+</resources>

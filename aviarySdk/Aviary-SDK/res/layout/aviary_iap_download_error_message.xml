@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aviary_error_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/aviary_ic_na_gold" />
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:id="@+id/aviary_retry_text"
+        style="?attr/aviaryIAPDialogTextErrorStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/feather_item_not_found" />
+
+    <Button
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:id="@+id/aviary_retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/feather_try_again"
+        android:gravity="center"
+        android:text="@string/feather_try_again" />
+
+</LinearLayout>

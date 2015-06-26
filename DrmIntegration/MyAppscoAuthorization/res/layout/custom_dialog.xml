@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#ffffff" ><!--#3f3f3f-->
+
+    <TextView
+        android:id="@+id/dailog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:textColor="#6bbe21"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/divider_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dailog_title"
+        android:background="@drawable/divider_green" />
+
+    <LinearLayout
+        android:id="@+id/middle_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_green"
+        android:gravity="center" >
+        
+         <TextView
+        android:id="@+id/dailog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+         />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/middle_layout"
+        android:visibility="visible"
+        >
+
+        <Button
+            android:id="@+id/first_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bottom_middle_button"
+            android:gravity="center"
+            android:text="First"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <!--
+          <ImageView
+        android:id="@+id/divider_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_layout"
+        android:background="@drawable/horizantal_divider" />
+    -->
+
+</RelativeLayout>

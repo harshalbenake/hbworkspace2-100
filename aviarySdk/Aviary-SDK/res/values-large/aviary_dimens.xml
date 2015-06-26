@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Large screen dimensions -->
+
+<resources>
+    
+    <dimen name="aviary_textSizeSmall">14sp</dimen>
+    <dimen name="aviary_textSizeMedium">16sp</dimen>
+    <dimen name="aviary_textSizeLarge">24sp</dimen>	
+    
+	<dimen name="aviary_focus_button_padding_left">28dip</dimen>
+    <dimen name="aviary_focus_button_padding_right">28dip</dimen>
+    
+	<dimen name="aviary_iap_list_item_padding_left">10dip</dimen>    
+	<dimen name="aviary_iap_list_item_padding_right">10dip</dimen>   
+	<dimen name="aviary_iap_list_item_padding_top">5dip</dimen>
+	<dimen name="aviary_iap_list_item_padding_bottom">5dip</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aviary_divider_right"
+    style="?attr/aviaryEffectThumbDividerRightContainerStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true" >
+
+    <View
+        style="?attr/aviaryEffectThumbDividerRightStyle"
+        android:layout_gravity="right" />
+
+</FrameLayout>

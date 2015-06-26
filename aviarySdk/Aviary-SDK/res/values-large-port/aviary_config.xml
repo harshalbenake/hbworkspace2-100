@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Large screen, portrait mode, configuration -->
+
+<resources>
+    <integer name="aviary_iap_dialog_cols_stickers">5</integer>
+    <integer name="aviary_iap_dialog_rows_stickers">3</integer>
+    
+    <integer name="aviary_iap_dialog_cols_effects">3</integer>
+    <integer name="aviary_iap_dialog_rows_effects">2</integer>    
+    
+    <integer name="aviary_iap_dialog_margin_top_weight">8</integer>
+    <integer name="aviary_iap_dialog_height_weight">70</integer>
+	<integer name="aviary_iap_dialog_width_weight">80</integer>
+	
+    <integer name="aviary_wheel_weight">80</integer>
+    <integer name="aviary_seekbar_weight">80</integer>	
+    
+    <integer name="aviary_enhance_item_weight">10</integer>
+    <integer name="aviary_color_splash_item_weight">10</integer>
+    <integer name="aviary_adjust_item_weight">25</integer>
+</resources>

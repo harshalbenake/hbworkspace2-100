@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aviary.android.feather.widget.IAPDialogList xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/aviary_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0dip" />
+
+        <include
+            android:id="@+id/aviary_iap_list_progress"
+            layout="@layout/aviary_progress_medium_inverse" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aviary_iap_list_divider_height"
+        android:background="@color/aviary_iap_list_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <com.aviary.android.feather.widget.AviaryTextView
+            android:id="@+id/aviary_summary"
+            style="?attr/aviaryIAPDialogRestoreDialogTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:gravity="center"
+            android:clickable="false" />
+
+        <com.aviary.android.feather.widget.AviaryButton
+            android:id="@+id/aviary_button"
+            style="?attr/aviaryIAPDialogRestoreAllButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_iap_restore_all" />
+    </LinearLayout>
+
+</com.aviary.android.feather.widget.IAPDialogList>

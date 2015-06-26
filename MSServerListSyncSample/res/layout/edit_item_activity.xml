@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+		<TextView android:text="@string/ui_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:hint="@string/ui_name"
+			android:id="@+id/edName" android:imeOptions="actionNext" />
+		<TextView android:text="@string/ui_description"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<EditText android:layout_width="fill_parent" android:id="@+id/edDesc"
+			android:singleLine="false" android:gravity="top" android:hint="@string/ui_description"
+			android:layout_height="wrap_content" android:lines="6" android:imeOptions="actionDone"/>
+		<TextView android:text="@string/ui_priority"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<Spinner android:layout_width="fill_parent" android:prompt="@string/ui_priority_prompt" android:layout_height="wrap_content" android:id="@+id/sPriority"></Spinner>
+		<TextView android:text="@string/ui_status"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/sStatus" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:drawSelectorOnTop="true"
+			android:prompt="@string/ui_status_prompt" />
+		<TextView android:text="@string/ui_start_date"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView android:text="2010-01-01" android:layout_height="35dp"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:gravity="center" android:textSize="17dp" android:textStyle="bold"
+				android:id="@+id/tStartDate" />
+			<TextView android:text="00:00" android:layout_height="35dp"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:gravity="center" android:textSize="17dp" android:textStyle="bold"
+				android:id="@+id/tStartTime" />
+		</LinearLayout>
+		<TextView android:text="@string/ui_end_date"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView android:text="2010-01-01" android:layout_height="35dp"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:gravity="center" android:textSize="17dp" android:textStyle="bold"
+				android:id="@+id/tEndDate" />
+			<TextView android:text="00:00" android:layout_height="35dp"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:gravity="center" android:textSize="17dp" android:textStyle="bold"
+				android:id="@+id/tEndTime" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

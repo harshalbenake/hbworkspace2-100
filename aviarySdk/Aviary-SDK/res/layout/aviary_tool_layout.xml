@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aviary.android.feather.widget.AviaryBadgeToolLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryBottomBarToolStyle"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/aviary_tool_margin"
+        android:layout_marginRight="@dimen/aviary_tool_margin"
+        android:gravity="center_horizontal" >
+
+        <com.aviary.android.feather.widget.AviaryHighlightImageButton
+            android:id="@+id/aviary_image"
+            style="?attr/aviaryBottomBarToolImageStyle"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/aviary_tool_ic_blemish" />
+
+        <ImageView
+            android:focusable="false"
+            android:id="@+id/aviary_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/aviary_image"
+            android:scaleType="centerInside"
+            android:src="@drawable/aviary_badge_icon"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:focusable="false"
+        android:id="@+id/aviary_text"
+        style="?attr/aviaryBottomBarToolTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/feather_tool_colorsplash" />
+
+</com.aviary.android.feather.widget.AviaryBadgeToolLayout>

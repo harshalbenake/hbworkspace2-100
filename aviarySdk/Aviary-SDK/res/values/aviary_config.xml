@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 
+    ############################ MISC ####################
+    -->
+    
+    <!-- The duration (in milliseconds) of a short animation. -->
+    <integer name="aviary_shortAnimTime">200</integer>
+    
+    <!-- The duration (in milliseconds) of a medium-length animation. -->
+    <integer name="aviary_mediumAnimTime">400</integer>    
+    
+	<!-- width weight for the wheel inside its container -->
+    <integer name="aviary_wheel_weight">100</integer>
+    <!-- width weight for the seekbar inside its container -->
+    <integer name="aviary_seekbar_weight">95</integer>
+    
+    <!-- duration of the restore status, in ms -->
+    <integer name="aviary_image_restore_timeout">2500</integer>
+    
+    <!-- 
+    ############################ SPOT ( redeye, whiten, blemish ) ####################
+     -->
+    
+    <!-- brush size for spot tools ( red-eye, whiten, blemish ) -->
+    <integer-array name="aviary_spot_brush_sizes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    
+    <!-- default selected brush size for spot tools -->
+    <integer name="aviary_spot_brush_index">2</integer>
+
+    <!-- 
+    	for gallery items drawables, this will be the min and max radius ( in % ) of the
+    	current drawable size 
+    -->
+    <integer name="aviary_spot_gallery_item_min_size">10</integer>
+    <integer name="aviary_spot_gallery_item_max_size">40</integer>
+    
+    
+    <!-- 
+    ############################ TEXT ####################
+     -->
+     
+     <!-- maximum characters allowed in the text tool -->
+	<integer name="aviary_text_max_length">100</integer>
+	<integer name="aviary_text_stroke_enabled">0</integer>
+    
+    <!-- 
+    	Array of colors for the text tool
+     -->
+    <integer-array name="aviary_text_fill_colors">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>    
+    
+    <!-- default selected text color -->
+    <integer name="aviary_text_fill_color_index">0</integer>
+    
+    <!-- drawable radius size ( in % ) -->
+    <integer name="aviary_text_gallery_drawable_radius">50</integer>
+    
+    
+    <!-- 
+    ############################ CROP ####################
+     -->
+    
+    <!-- 
+    	Crop tool invert policy
+    	if the value is '1' then the crop area cannot be inverted by the user
+    	if the value is '0' the crop can be inverted 
+    -->
+    <integer name="aviary_crop_invert_policy">0</integer>
+    
+    <!-- 
+    	Aspect ratio display labels
+    	Note that the corresponding ratio value is defined in the
+    	"crop_values" array and it also must contain the same number of entries 
+    -->
+    <string-array name="aviary_crop_labels">
+        <item>@string/feather_original</item>
+        <item>@string/feather_square</item>
+        <item>@string/feather_custom</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>2.35:1</item>
+    </string-array>
+
+    <!-- 
+    	This defines the 'ratio' values for the 'crop_labels' array
+    	Ratio is defined by 'aspectX:aspectY'
+    	The final apsect ratio will be defined as aspectX/aspectY
+    	Only integer values allowed here.
+    	value '0' means not aspect ratio at all, so user will be free to change the crop rectangle without restrictions
+    	value '-1' means use the same aspect(X or Y) of the original image 
+    -->
+    <string-array name="aviary_crop_values">
+        <item>-1:-1</item>
+        <item>1:1</item>
+        <item>0:0</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>235:100</item>
+    </string-array>    
+    
+    <!-- crop item selected by default ( based on 'aviary_crop_values' )-->
+    <integer name="aviary_crop_selected_index">2</integer>
+    
+    
+    
+    <!-- 
+    ############################ DRAW ####################
+     -->
+    
+    <!-- blur softness for the drawing paint, use 0 to make hard -->
+    <integer name="aviary_draw_brush_softValue">1</integer>
+    
+    <!-- 
+    	Array of colors for the drawing tool
+     -->
+    <integer-array name="aviary_draw_fill_colors">
+        <item>0x00000000</item>
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+        <item>0x00000000</item>
+    </integer-array>    
+    
+    <!-- default selected fill color -->
+    <integer name="aviary_draw_fill_color_index">3</integer>
+    
+    <!-- brush sizes -->
+    <integer-array name="aviary_draw_brush_sizes">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    
+    <!-- default selected brush size -->
+    <integer name="aviary_draw_brush_index">2</integer>
+    
+    
+    <!-- 
+	############################ MEME ####################
+	-->
+    
+	<!-- change the default font used for the meme pane -->
+	<!-- or leave empty to use the default system font -->
+    <string name="aviary_meme_font">meme/Impact.ttf</string>
+    
+ 	<!-- maximum characters allowed for a single line of the meme -->
+	<integer name="aviary_meme_max_length">35</integer>
+	
+	<!-- toggle stroke for the meme text -->
+	<integer name="aviary_meme_stroke_enabled">1</integer>
+    
+    
+	<!-- 
+	############################ ORIENTATION #################### 
+	 -->
+	 
+	<!-- rotate/flip animation duration -->
+	<integer name="aviary_adjust_animationDuration">@android:integer/config_mediumAnimTime</integer>
+	<!-- reset animation duration -->
+	<integer name="aviary_adjust_animationDuration2">@android:integer/config_shortAnimTime</integer>
+	<!-- enable 3d animation on flip -->
+	<integer name="aviary_adjust_flip3d">0</integer>
+    <!-- users will be able to free rotate the image using fingers -->
+    <!-- 0 = disable free rotation -->
+    <!-- 1 = enable free rotation -->
+    <integer name="aviary_adjust_free_rotate">1</integer>
+
+    <!-- layout item container weight -->
+    <integer name="aviary_adjust_item_weight">30</integer>
+    <!-- layout divider weoght -->
+    <integer name="aviary_adjust_divider_weight">5</integer>
+    
+    <!-- 
+    ############################ IAP Dialog #################### 
+     -->
+    
+    <!-- height weight of the IAP dialog ( how much screen it will cover vertically ) -->
+    <integer name="aviary_iap_dialog_height_weight">80</integer>
+    <integer name="aviary_iap_dialog_width_weight">100</integer>
+    <!-- margin top weight -->
+    <integer name="aviary_iap_dialog_margin_top_weight">0</integer>
+    
+    <!-- IAP Dialog Workspace cols and rows -->
+    <integer name="aviary_iap_dialog_cols_stickers">5</integer>
+    <integer name="aviary_iap_dialog_rows_stickers">3</integer>
+    
+    <integer name="aviary_iap_dialog_cols_effects">3</integer>
+    <integer name="aviary_iap_dialog_rows_effects">2</integer>    
+    
+    
+    <!-- 
+    ############################ FRAMES/EFFECTS #################### 
+     -->    
+     
+	<!-- max number of featured packs to display -->
+	<!-- deprecated -->
+	<integer name="aviary_featured_packs_count">3</integer>
+	
+    <!-- 
+    ############################ STICKERS #################### 
+     -->	
+    
+    
+    <!-- 
+    ############################ ENHANCE #################### 
+     -->
+     
+     <!-- button weight ( on 100 ) -->	
+     <integer name="aviary_enhance_item_weight">15</integer>
+    
+
+	<!-- 
+    ############################ COLOR SPLASH #################### 
+     -->
+     
+     <!-- button weight ( on 100 ) -->
+     <integer name="aviary_color_splash_item_weight">15</integer>
+     <!-- divider weight -->
+     <integer name="aviary_color_splash_divider_weight">5</integer>
+     
+     
+     
+     
+     
+     
+     
+     <integer name="aviary_asyncimagemanager_tag">100</integer>
+     
+     
+     
+</resources>

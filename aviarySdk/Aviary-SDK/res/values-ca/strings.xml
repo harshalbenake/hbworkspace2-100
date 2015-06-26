@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="feather_menu_reset">Reajustar</string>
+	<string name="feather_draw">Dibuix</string>
+	<string name="border_name">Lliure</string>
+	<string name="feather_effect_loading_message">Aplicant efectes</string>
+	<string name="feather_tool">Eina</string>
+	<string name="feather_save">Fet</string>
+	<string name="feather_tool_temperature">Calor</string>
+	<string name="feather_brightness">Lluentor</string>
+	<string name="feather_enter_text_here">Introdueixi text aquí</string>
+	<string name="confirm_quit_message">Esperi! No ha guardat els canvis. Està segur que desitja tancar aquest navegador?</string>
+	<string name="feather_infoscreen_text">Aviary és un SDK gratuït disponible per iOS i Android que et permet afegir capacitats d\'edició de fotos i efectes a la teva aplicació amb només dues línies de codi.</string>
+	<string name="feather_auto_enhance_label">Automàtic</string>
+	<string name="feather_stickers">Adhesius</string>
+	<string name="feather_contrast">Contrast</string>
+	<string name="feather_red_eye">Ulls vermells</string>
+	<string name="feather_rotate">Girar</string>
+	<string name="feather_delete">Esborrar</string>
+	<string name="feather_update">Actualitzar</string>
+	<string name="feather_meme">Meme</string>
+	<string name="feather_whiten">Blanquejar</string>
+	<string name="feather_text">Text</string>
+	<string name="feather_borders">Marc</string>
+	<string name="feather_edit_bottom_text">Editar text inferior</string>
+	<string name="feather_blemish">Taca</string>
+	<string name="feather_powered_by_aviary">Desenvolupat per Aviary.com</string>
+	<string name="filter_name">Lliure</string>
+	<string name="feather_close">Tancar</string>
+	<string name="feather_flip">Voltejar</string>
+	<string name="feather_edit_top_text">Editar text superior</string>
+	<string name="feather_keep_editing">Continuar editant</string>
+	<string name="feather_cancel">Cancellar</string>
+	<string name="feather_crop">Retallar</string>
+	<string name="feather_saturation">Saturació</string>
+	<string name="feather_apply">Aplicar</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AviaryWidget.IAPDialog.ShadowTop">
+        <item name="android:minHeight">@dimen/aviary_iap_list_divider_height</item>
+        <item name="android:maxHeight">@dimen/aviary_iap_list_divider_height</item>
+        <item name="android:background">@color/aviary_iap_list_divider</item>
+    </style>
+    
+    <style name="AviaryWidget.IAPDialog.ShadowBottom">
+        <item name="android:minHeight">@dimen/aviary_iap_list_divider_height</item>
+        <item name="android:maxHeight">@dimen/aviary_iap_list_divider_height</item>
+        <item name="android:background">@color/aviary_iap_list_divider</item>
+    </style>
+</resources>

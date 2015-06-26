@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryFeedbackDialogStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:focusable="true" >
+    
+    <requestFocus />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aviary_logo_big" />
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:id="@+id/aviary_version"
+        style="?attr/aviaryFeedbackDialogTextVersionStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feather_version" />
+
+    <LinearLayout style="?attr/aviaryFeedbackDialogDividerStyle" android:layout_marginBottom="10dip" android:layout_marginTop="5dip" />
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        style="?attr/aviaryFeedbackDialogTextMessageStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/aviary_text"
+        android:text="@string/feather_feedback_dialog_message"
+         />
+
+    <com.aviary.android.feather.widget.AviaryButton
+        android:id="@+id/aviary_button1"
+        style="?attr/aviaryCustomDialogButtonStyle"
+        android:layout_marginBottom="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:focusable="true"
+        android:text="@string/feather_send_feedback" />
+    
+    <LinearLayout style="?attr/aviaryFeedbackDialogDividerStyle" android:layout_marginTop="0dip" android:layout_marginBottom="5dip" />
+
+    <com.aviary.android.feather.widget.AviaryButton
+        android:id="@+id/aviary_button2"
+        style="?attr/aviaryCustomDialogButtonSecondaryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:focusable="true"
+        android:text="@string/feather_close" />
+
+</LinearLayout>

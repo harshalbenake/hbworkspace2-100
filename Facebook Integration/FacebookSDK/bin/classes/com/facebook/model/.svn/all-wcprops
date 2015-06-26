@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model
+END
+GraphUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/GraphUser.java
+END
+OpenGraphAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/OpenGraphAction.java
+END
+GraphObjectList.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/GraphObjectList.java
+END
+PropertyName.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/PropertyName.java
+END
+GraphPlace.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/GraphPlace.java
+END
+JsonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/JsonUtil.java
+END
+GraphObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/GraphObject.java
+END
+GraphLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/GraphLocation.java
+END
+GraphMultiResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/src/com/facebook/model/GraphMultiResult.java
+END

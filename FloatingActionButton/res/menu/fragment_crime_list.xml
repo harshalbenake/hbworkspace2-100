@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu-v20/fragment_crime_list.xml -->
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menu_item_show_subtitle"
+              android:title="show_subtitle"
+              android:showAsAction="never"/>
+    </menu>

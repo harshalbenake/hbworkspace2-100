@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aviary_optionpanel_button_padding_left">12dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_right">12dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_top">8dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_bottom">10dip</dimen>
+    
+    <dimen name="aviary_textSizeSmall">10sp</dimen>
+    <dimen name="aviary_textSizeMedium">13sp</dimen>
+</resources>

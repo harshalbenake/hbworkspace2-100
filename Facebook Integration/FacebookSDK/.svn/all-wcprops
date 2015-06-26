@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/flashre/!svn/ver/1503/application/android/branches/FacebookSDK
+END
+android-sdk.iml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/android-sdk.iml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/flashre/!svn/ver/1482/application/android/branches/FacebookSDK/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/flashre/!svn/ver/1482/application/android/branches/FacebookSDK/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/.project
+END
+lint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/lint.xml
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/AndroidManifest.xml
+END
+android-sdk.eml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/android-sdk.eml
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/flashre/!svn/ver/872/application/android/branches/FacebookSDK/build.xml
+END

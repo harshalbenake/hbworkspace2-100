@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:top="@dimen/aviary_nav_divider">
+        <color android:color="@color/aviary_nav_divider_light" />
+    </item>
+    
+    <item android:left="@dimen/aviary_nav_divider">
+        <shape android:shape="rectangle">
+        	<solid android:color="@color/aviary_nav_divider_dark" />
+        </shape>
+    </item>
+
+</layer-list>

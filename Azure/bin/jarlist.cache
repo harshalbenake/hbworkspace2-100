@@ -1,0 +1,7 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1417696396000 206866 08896e10f8b07918b60c835b45a05507fa213e84 /home/harshalb/Desktop/demo/Azure/libs/jackson-core-2.1.4.jar
+1417696396000 206866 08896e10f8b07918b60c835b45a05507fa213e84 /home/harshalb/Desktop/demo/microsoft-azure-storage/libs/jackson-core-2.1.4.jar
+1417691909000 987314 9b6a9a9078af571732159b904ad423b03b7cc786 /home/harshalb/Desktop/demo/Azure/libs/android-support-v4.jar
+1417691909000 987314 9b6a9a9078af571732159b904ad423b03b7cc786 /home/harshalb/Desktop/demo/microsoft-azure-storage/libs/android-support-v4.jar

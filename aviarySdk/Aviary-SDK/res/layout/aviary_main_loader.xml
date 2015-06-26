@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/aviary_main_loader_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="15dp" >
+
+    <include
+        android:layout_margin="@dimen/aviary_main_loader_padding"
+        layout="@layout/aviary_progress_medium" />
+
+</RelativeLayout>

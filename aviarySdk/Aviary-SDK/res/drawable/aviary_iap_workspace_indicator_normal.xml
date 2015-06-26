@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="translucent" >
+
+    <item
+        android:bottom="1px"
+        android:left="1px"
+        android:right="1px"
+        android:top="1px">
+        <shape
+            android:dither="true"
+            android:shape="oval"
+            android:useLevel="true" >
+            <size
+                android:height="12dip"
+                android:width="12dip" />
+
+            <stroke
+                android:width="1px"
+                android:color="@android:color/black" />
+
+            <gradient
+                android:centerY="60%p"
+                android:endColor="@color/aviary_workspace_indicator_normal_endColor"
+                android:gradientRadius="20"
+                android:startColor="@color/aviary_workspace_indicator_normal_startColor"
+                android:type="radial" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval" >
+            <stroke
+                android:width="1px"
+                android:color="@android:color/white" />
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,7 @@
+int drawable ic_launcher 0x7f020000
+int id qrscan_btn 0x7f050001
+int id scan_btn 0x7f050000
+int layout main 0x7f030000
+int string app_name 0x7f040000
+int string scan 0x7f040001
+int string scan_only_qr_codes 0x7f040002

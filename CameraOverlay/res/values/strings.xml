@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">CameraOverlayTut</string>
+    <string name="title_activity_main">A Main Activity</string>
+    <string name="button_use_camera">Use Camera</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="button_capture_text">SNAP</string>
+    <string name="content_desc_overlay">overlay</string>
+    <string name="content_desc_image_just_taken">Image just taken</string>
+
+</resources>

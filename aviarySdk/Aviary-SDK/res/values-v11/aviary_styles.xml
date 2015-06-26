@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AviaryWidget.IAPDialog.ShadowTop">
+        <item name="android:minHeight">1dip</item>
+        <item name="android:background">@drawable/aviary_iap_workspace_shadow_top</item>
+    </style>
+    
+    <style name="AviaryWidget.IAPDialog.ShadowBottom">
+        <item name="android:minHeight">1dip</item>
+        <item name="android:background">@drawable/aviary_iap_workspace_shadow_bottom</item>
+    </style>
+</resources>

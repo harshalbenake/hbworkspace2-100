@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyle"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+        <requestFocus />
+        
+        <com.aviary.android.feather.widget.AviaryHighlightImageButton
+            android:id="@+id/aviary_button_circle"
+            style="?attr/aviaryFocusOptionPanelToggleLeftButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_circle"
+            android:src="@drawable/aviary_ic_circle"
+            aviary:aviary_checked="true"
+            aviary:aviary_untoggleable="false" />
+
+        <com.aviary.android.feather.widget.AviaryHighlightImageButton
+            android:id="@+id/aviary_button_rectangle"
+            style="?attr/aviaryFocusOptionPanelToggleRightButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_rectangle"
+            android:src="@drawable/aviary_ic_rectangle"
+            aviary:aviary_untoggleable="false" />
+    </LinearLayout>
+
+    <com.aviary.android.feather.widget.AviaryTextView
+        android:id="@+id/text1"
+        style="?attr/aviaryBottomBarToolTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/feather_shapes" />
+
+</LinearLayout>

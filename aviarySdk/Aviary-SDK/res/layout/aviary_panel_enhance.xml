@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyle"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="?attr/aviaryEnhanceItemWeight"
+        android:gravity="center_horizontal"
+        
+        android:orientation="vertical" >
+
+        <com.aviary.android.feather.widget.AviaryHighlightImageButton
+            android:id="@+id/button1"
+            style="?attr/aviaryEnhanceOptionPanelToggleLeftButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_hidef"
+            android:src="@drawable/aviary_ic_enhance_hd"
+            aviary:aviary_untoggleable="true" />
+
+        <com.aviary.android.feather.widget.AviaryTextView
+            android:id="@+id/text1"
+            style="?attr/aviaryBottomBarToolTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_hidef" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="?attr/aviaryEnhanceItemWeight"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.aviary.android.feather.widget.AviaryHighlightImageButton
+            android:id="@+id/button2"
+            style="?attr/aviaryEnhanceOptionPanelToggleCenterButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_illuminate"
+            android:src="@drawable/aviary_ic_enhance_brighten"
+            aviary:aviary_untoggleable="true" />
+
+        <com.aviary.android.feather.widget.AviaryTextView
+            android:id="@+id/text2"
+            style="?attr/aviaryBottomBarToolTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_illuminate" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="?attr/aviaryEnhanceItemWeight"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.aviary.android.feather.widget.AviaryHighlightImageButton
+            android:id="@+id/button3"
+            style="?attr/aviaryEnhanceOptionPanelToggleRightButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_colorfix"
+            android:src="@drawable/aviary_ic_enhance_colorfix"
+            aviary:aviary_untoggleable="true" />
+
+        <com.aviary.android.feather.widget.AviaryTextView
+            android:id="@+id/text3"
+            style="?attr/aviaryBottomBarToolTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_colorfix" />
+    </LinearLayout>
+
+</LinearLayout>

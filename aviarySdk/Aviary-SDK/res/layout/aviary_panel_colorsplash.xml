@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryBottomBarOptionPanelContainerStyleNoMargin">
+
+    <LinearLayout
+        style="?attr/aviaryBottomBarOptionPanelContainerStyle"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <!-- free -->
+
+        <LinearLayout
+            android:layout_weight="?attr/aviarySplashItemWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                android:id="@+id/aviary_button1"
+                style="?attr/aviaryColorSplashOptionPanelToggleLeftButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/feather_colorsplash_free"
+                android:src="@drawable/aviary_ic_free"
+                aviary:aviary_checked="true"
+                aviary:aviary_untoggleable="false" />
+
+            <com.aviary.android.feather.widget.AviaryTextView
+                style="?attr/aviaryBottomBarToolTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_colorsplash_free" />
+        </LinearLayout>
+
+        <!-- smart -->
+
+        <LinearLayout
+            android:layout_weight="?attr/aviarySplashItemWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                android:id="@+id/aviary_button2"
+                style="?attr/aviaryColorSplashOptionPanelToggleRightButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/feather_colorsplash_smart"
+                android:src="@drawable/aviary_ic_smart"
+                aviary:aviary_untoggleable="false" />
+
+            <com.aviary.android.feather.widget.AviaryTextView
+                style="?attr/aviaryBottomBarToolTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_colorsplash_smart" />
+        </LinearLayout>
+
+        <View 
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="?attr/aviarySplashDividerWeight"/>
+        
+        <!-- erase -->
+
+        <LinearLayout
+            android:layout_weight="?attr/aviarySplashItemWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.aviary.android.feather.widget.AviaryHighlightImageButton
+                android:id="@+id/aviary_button3"
+                style="?attr/aviaryColorSplashOptionPanelToggleButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/feather_colorsplash_eraser"
+                android:src="@drawable/aviary_ic_eraser"
+                aviary:aviary_untoggleable="false" />
+
+            <com.aviary.android.feather.widget.AviaryTextView
+                style="?attr/aviaryBottomBarToolTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_colorsplash_eraser" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aviary_disable_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/aviaryPanelDisabledStatusBackground"
+        android:orientation="horizontal"
+        android:visibility="invisible" />
+
+</RelativeLayout>

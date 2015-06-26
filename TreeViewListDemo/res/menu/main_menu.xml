@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:enabled="true" android:id="@+id/simple_menu_item" android:numericShortcut="1"
+		android:titleCondensed="@string/simple_menu_condensed" android:visible="true" android:alphabeticShortcut="s"
+		android:title="@string/simple_menu_name"></item>
+	<item android:id="@+id/fancy_menu_item" android:titleCondensed="@string/fancy_menu_condensed"
+		android:alphabeticShortcut="f" android:title="@string/fancy_menu_name" android:enabled="true" android:visible="true"
+		android:numericShortcut="2"></item>
+	<item android:enabled="true" android:titleCondensed="@string/expand_all_condensed" android:visible="true"
+		android:title="@string/expand_all_menu" android:id="@+id/expand_all_menu_item" android:numericShortcut="3"
+		android:alphabeticShortcut="e"></item>
+	<item android:titleCondensed="@string/collapse_all_condesed" android:title="@string/collapse_all_menu"
+		android:alphabeticShortcut="c" android:visible="true" android:enabled="true" android:numericShortcut="4"
+		android:id="@+id/collapse_all_menu_item"></item>
+	<item android:enabled="true" android:checkable="true" android:titleCondensed="@string/collapsible_condensed_disable"
+		android:visible="true" android:alphabeticShortcut="c" android:checked="true" android:title="@string/collapsible_menu_disable"
+		android:id="@+id/collapsible_menu_item" android:numericShortcut="5"></item>
+
+</menu>

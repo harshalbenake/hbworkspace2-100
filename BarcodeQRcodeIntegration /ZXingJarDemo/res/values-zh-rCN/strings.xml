@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ZXingJar 使用范例</string>
+	<string name="scan">扫描</string>
+	<string name="scan_resut_lable">扫描结果：</string>
+	<string name="msg_default_status">请将条码置于取景框内扫描。</string>
+</resources>

@@ -1,0 +1,44 @@
+<! doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<script charset="utf&minus;8" type="text/javascript">
+function connect(e)
+{
+var term= {button:e};
+$.ajax({
+url:'http://www.indiageeks.in/tutorials/reply.php',
+type:'POST',
+data:term,
+dataType:'json',
+error:function(jqXHR,text_status,strError){
+alert("no connection");},
+timeout:60000,
+success:function(data){
+$("#result").html("");
+for(var i in data){
+$("#result").append("<li>"+data[i]+"</li>");
+}
+}
+});}
+
+</script>
+<body>
+<div data-role="page" id="index" data-theme="a">
+
+<center><b>Bikes or Cars</b></center>
+<center><input onclick="connect(this.value)" type="button" value="cars" /></center>
+<center><input onclick="connect(this.value)" type="button" value="bikes" /></center>
+<center><b>Results</b></center>
+<ul id="result"></ul>
+
+</div><!-- fim page index -->
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryPressed">#ff0000</color>
+    <color name="primaryFocused">#ffff00</color>
+    <color name="primary">#ff00ff</color>
+
+</resources>

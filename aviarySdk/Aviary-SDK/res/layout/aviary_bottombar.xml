@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aviary.android.feather.widget.AviaryBottomBarViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:aviary="http://schemas.android.com/apk/res-auto"
+    style="?attr/aviaryBottomBarViewFlipperStyle"
+    android:animateFirstView="false" >
+
+    <!-- options panel -->
+    <FrameLayout
+        android:id="@+id/aviary_content_view"
+        style="?attr/aviaryBottomBarOptionPanelStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <!-- tools panel -->
+
+    <LinearLayout
+        android:id="@+id/aviary_tool_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <it.sephiroth.android.library.widget.HListView
+            android:id="@+id/aviary_tools_listview"
+            style="?attr/aviaryBottomBarHorizontalViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            style="?attr/aviaryBottomBarLogoContainerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <ImageView
+                android:id="@+id/aviary_white_logo"
+                style="?attr/aviaryBottomBarLogoImageStyle"
+                android:contentDescription="@string/feather_powered_by_aviary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.aviary.android.feather.widget.AviaryBottomBarViewFlipper>

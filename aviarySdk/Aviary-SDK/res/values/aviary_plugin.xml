@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 <!-- PLUGIN SERVICE - DO NOT EDIT -->
+    <integer name="is_sticker">0</integer>
+    <integer name="is_filter">1</integer>
+    <integer name="is_tool">1</integer>
+    <integer name="is_border">0</integer>
+
+    <string name="feather_plugin_filter_undefined_name">Original</string>
+    
+    <!-- list of available borders -->
+    <!-- each border must have an equivalent "feather_plugin_border_xxx_thumb" drawable -->
+    <!-- and a "feather_plugin_border_xxx_name" string label -->    
+    <string-array name="borders_list" />
+    <integer name="border_version">1</integer>
+    
+</resources>

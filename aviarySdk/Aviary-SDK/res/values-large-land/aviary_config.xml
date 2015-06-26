@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Large screen, landscape mode, configuration -->
+
+<resources>
+    <integer name="aviary_iap_dialog_cols_stickers">6</integer>
+    <integer name="aviary_iap_dialog_rows_stickers">3</integer>
+    
+    <integer name="aviary_iap_dialog_cols_effects">4</integer>
+    <integer name="aviary_iap_dialog_rows_effects">2</integer>    
+    
+    <integer name="aviary_iap_dialog_margin_top_weight">0</integer>
+    <integer name="aviary_iap_dialog_height_weight">75</integer>
+	<integer name="aviary_iap_dialog_width_weight">70</integer>
+	
+    <integer name="aviary_wheel_weight">70</integer>
+    <integer name="aviary_seekbar_weight">70</integer>	
+    
+    <integer name="aviary_enhance_item_weight">8</integer>
+    <integer name="aviary_color_splash_item_weight">8</integer>
+    <integer name="aviary_adjust_item_weight">20</integer>	
+	
+</resources>

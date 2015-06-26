@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:title="NORMAL">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="ALPHA">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="SCALING">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="ROTATION">
+    </item>
+
+</menu>

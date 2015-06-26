@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aviary.android.feather.library.services.drag.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dragLayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/aviaryBackgroundColor"
+        android:orientation="vertical" >
+
+        <!-- main navbar ( title, apply and done buttons ) -->
+
+        <include
+            android:id="@+id/aviary_navbar"
+            layout="@layout/aviary_navbar" >
+        </include>
+
+        <!-- main content view -->
+
+        <RelativeLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/aviary_bottombar"
+            android:layout_below="@id/aviary_navbar"
+            android:padding="?attr/aviaryMainImagePadding" >
+
+            <!-- optional image view container -->
+
+            <RelativeLayout
+                android:id="@+id/drawing_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </RelativeLayout>
+
+            <!-- main image view -->
+
+            <com.aviary.android.feather.widget.AviaryImageRestoreSwitcher
+                android:id="@+id/aviary_restore"
+                style="?attr/aviaryImageRestoreViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible">
+
+                <it.sephiroth.android.library.imagezoom.ImageViewTouch
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <it.sephiroth.android.library.imagezoom.ImageViewTouch
+                    android:id="@+id/image_original"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </com.aviary.android.feather.widget.AviaryImageRestoreSwitcher>
+
+            <!-- main loader, visible while loading the image at start -->
+
+            <include
+                android:id="@+id/image_loading_view"
+                layout="@layout/aviary_main_loader" >
+            </include>
+        </RelativeLayout>
+
+        <!-- bottom bar (tools, panels) -->
+
+        <include
+            android:id="@+id/aviary_bottombar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/aviaryBottomBarHeight"
+            android:layout_alignParentBottom="true"
+            layout="@layout/aviary_bottombar" >
+        </include>
+
+        <!-- popup container dialog -->
+
+        <RelativeLayout
+            android:id="@+id/feather_dialogs_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/aviary_navbar"
+            android:visibility="invisible" >
+        </RelativeLayout>
+
+        <!-- hidden surface view -->
+
+        <SurfaceView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible" >
+        </SurfaceView>
+    </RelativeLayout>
+
+</com.aviary.android.feather.library.services.drag.DragLayer>
