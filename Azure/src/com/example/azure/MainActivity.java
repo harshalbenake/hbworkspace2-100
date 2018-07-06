@@ -21,11 +21,10 @@ import com.microsoft.azure.storage.blob.CloudBlobContainer;
 import com.microsoft.azure.storage.blob.ListBlobItem;
 
 public class MainActivity extends Activity {
-	public static final String ACCOUNT_NAME = "assetmanagerwebmapfiles";
-	public static final String ACCOUNT_KEY = "gvXSY7kFx/juHRXFus7Hc2DyRViCkUBvAn9NwmvMU86cnemucqTxRX8FfTOmPHASYHav0D89H4wGRRrfjat/pw==";
-	public static final String CONTAINER_REF = "fieldclientgdbmapfiles";
-	//public static final String FILENAME = "/gsiscout.geodatabase";
-	public static final String FILENAME = "/scoutiosdemogeodatabase.zip";
+	public static final String ACCOUNT_NAME = "xxxACCOUNT_NAMExxx";
+	public static final String ACCOUNT_KEY = "xxxACCOUNT_KEYxxx";
+	public static final String CONTAINER_REF = "xxxCONTAINER_REFxxx";
+	public static final String FILENAME = "xxxFILENAMExxx";
 	public static final String STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=http;"+ "AccountName=" + ACCOUNT_NAME + ";" + "AccountKey=" + ACCOUNT_KEY;
 	public static final String STORED_ZIP_FILE_LOCATION = Environment.getExternalStorageDirectory().getPath();
 	private CloudBlobContainer mContainer;
