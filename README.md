@@ -279,8 +279,8 @@ Description :- Send email in background after authentication.
 (93)  Name :- GoogleAnalytics_AS
 Description :- GoogleAnalytics integration demo for crash and screen.
 
-(94)  Name :- BroadcastReciever_AS
-Description :- Broadcast Reciever for sms ,call and boot receiver.
+(94)  Name :- BroadcastReceiver_AS
+Description :- Broadcast Receiver for sms ,call and boot receiver.
 
 (95)  Name :- Azure
 Description :- Azure storage gsi credentials zip dowload.
@@ -295,7 +295,7 @@ Description :- Simple Listview in ios.
 Description :- Sqlite Database in ios.
 
 (99)  Name :- MessangerList_AS
-Description :- Messanger Listview UI send and recieve.
+Description :- Messanger Listview UI send and receive.
 
 (100)  Name :- FindingFriend_AS
 Geofencing for enter and exit another pin.
