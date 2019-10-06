@@ -299,6 +299,3 @@ Description :- Messanger Listview UI send and recieve.
 
 (100)  Name :- FindingFriend_AS
 Geofencing for enter and exit another pin.
-
-(101) Name :- Pulkit Malhotra
-Description. :- Demo
