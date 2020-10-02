@@ -115,7 +115,7 @@ Description :- Convert speech to text.
 Description :- Convert text to speech.
 
 (39)  Name :- TouchCordinates
-Description :- Get coordinate of user touch intergration.
+Description :- Get coordinate of user touch integration.
 
 (40)  Name :- TreeViewListDemo
 Description :- Tree view integration demo.
